@@ -1,0 +1,3 @@
+# Historical replay and HTTP service use Python's standard library only.
+# Needed for UART enumeration and the original run_board.py live entrypoint.
+pyserial==3.5

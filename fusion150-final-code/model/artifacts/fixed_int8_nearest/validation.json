@@ -1,0 +1,62 @@
+{
+  "status": "candidate",
+  "split": "existing_validation_only",
+  "samples": 1796,
+  "bits": 8,
+  "activation_rounding": "nearest",
+  "weights_sha256": "052b295453982942843fbb65b9e51f889a2c4789fc6ff0b3be68a3b16e82c027",
+  "float_accuracy": 0.8062360801781737,
+  "fixed_accuracy": 0.8067928730512249,
+  "classification_agreement": 0.9905345211581291,
+  "disagreement_count": 17,
+  "agreement_target": 0.98,
+  "agreement_passed": true,
+  "max_abs_logit_error": 0.7713479995727539,
+  "activation_clipping": {
+    "input": {
+      "count": 30,
+      "elements": 2068992
+    },
+    "norm1_output": {
+      "count": 0,
+      "elements": 919552
+    },
+    "q": {
+      "count": 0,
+      "elements": 919552
+    },
+    "k": {
+      "count": 0,
+      "elements": 919552
+    },
+    "softmax_prob": {
+      "count": 0,
+      "elements": 1839104
+    },
+    "v": {
+      "count": 1,
+      "elements": 919552
+    },
+    "av": {
+      "count": 0,
+      "elements": 919552
+    },
+    "norm2_output": {
+      "count": 0,
+      "elements": 919552
+    },
+    "ff1_post_relu": {
+      "count": 0,
+      "elements": 1839104
+    },
+    "pool_output": {
+      "count": 0,
+      "elements": 28736
+    }
+  },
+  "evaluation_wall_seconds": 0.24357820001023356,
+  "logical_gemm_calls_per_sample": 10,
+  "raw8_calls_per_sample": 10,
+  "first_classification_disagreement": 84,
+  "note": "Host evaluation timing is not PS/PL performance. No official test data read."
+}

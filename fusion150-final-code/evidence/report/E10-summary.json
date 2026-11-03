@@ -1,0 +1,131 @@
+{
+  "id": "E10",
+  "title": "独立离线复建",
+  "claims": {
+    "schema": "fusion150-rebuild-independent-review/1",
+    "status": "offline_rebuild_evidence_verified",
+    "stages": {
+      "preflight": "passed",
+      "host": "passed",
+      "hls": "passed",
+      "soc": "passed",
+      "arm": "passed"
+    },
+    "call_count": 18,
+    "extracted_source_files": 2680,
+    "ip_files": 273,
+    "bsp_files": 741,
+    "frozen_files": 31,
+    "cosim_cycles_min_avg_max": [
+      4646,
+      4647,
+      4653
+    ],
+    "cosim_report_sha256": "3e04c4d52c02da1075d7118e4d84d07a0d33d3a94877e772c79882a9c0064fc8",
+    "actual_xsa_fabric_mhz": 150.0,
+    "generated_master_ids": {
+      "m_axi_gmem_in": "1",
+      "m_axi_gmem_out": "2"
+    },
+    "matches_original_master_ids": false,
+    "ordinary_timing": {
+      "setup": {
+        "worst_slack_ns": 0.032,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 119977
+      },
+      "hold": {
+        "worst_slack_ns": 0.021,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 119977
+      },
+      "pulse_width": {
+        "worst_slack_ns": 2.203,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 50145
+      }
+    },
+    "expanded_timing": {
+      "setup": {
+        "worst_slack_ns": 0.032,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 119977
+      },
+      "hold": {
+        "worst_slack_ns": 0.021,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 119977
+      },
+      "pulse_width": {
+        "worst_slack_ns": 2.203,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 50145
+      }
+    },
+    "resources": {
+      "lut": 41210.0,
+      "ff": 44628.0,
+      "bram_tiles": 98.5,
+      "dsp": 216.0
+    },
+    "warning_counts": {
+      "DPOP-1": 9,
+      "DPOP-2": 12
+    },
+    "rebuilt_warning_disposition": "not_adjudicated",
+    "artifacts_sha256": {
+      "har_net_system.bit": "f818bdb7959c6558036d94d54e450815a5a3190c0f329cb8697869da58c45f7f",
+      "har_net_system.xsa": "545676235f4903b0c957757a31393b189ece85edfa2feaa400aa377cd36b44be",
+      "ps7_init.tcl": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020"
+    },
+    "arm_purposes": {
+      "validation": {
+        "elf_sha256": "dab0081cf4948e20db559221fc1a474f56e56493c932ff4440442f8f9ae24f4f",
+        "build_token": "272fef4c6faf4aabbfd0c7cff2efba02",
+        "precompile_inputs_sha256": "21f20b1b12639fe7031ae201260a66c32e30405f53ca0d1e3120cb865314c267"
+      },
+      "benchmark": {
+        "elf_sha256": "eac1e0f61f4622c38e27fdd9e51610b2f0c89bafda216e35633366d7fff124e5",
+        "build_token": "d129b1f943ec419e9e5893b18690bf2f",
+        "precompile_inputs_sha256": "3d18a81eb6bb351cf8b9b97ee7c1f25946af13239b7dd57c23ca755c15e96cb0"
+      },
+      "lifecycle": {
+        "elf_sha256": "e853113e9426305af9174cabbccd5488d0ad4eac17c7ffb9075b8b743bbf3daa",
+        "build_token": "9f82b9d2b6e941c5919c2eaa162f1bb0",
+        "precompile_inputs_sha256": "cc084b82809fe3fff5becc85a515fa6c712e65690ed7f95fe286b856dca7d1dd"
+      }
+    },
+    "stage_manifest_sha256": {
+      "preflight": "ef365679b1b0523ea010a547db636fe88cac90449ce077faa5d6a5d23d89e94b",
+      "host": "5c58df0a5d16f6ce783bf01328fdebce92d6723062d03fad0f9dffcad70506b4",
+      "hls": "e59c8969450e2d2a805318064689e64b5ea6eb9ba9d86a65bd7ce462854b59d6",
+      "soc": "962f0d2be0810f8a04c67b4b0ea8d3432779e9c84fb45feed8fe56b15b456b01",
+      "arm": "122f299fc8b418f1c80bddb3e907b3567d370cbf7941c34a13ccda27a03564f8"
+    },
+    "reviewer_sha256": "03423bb6f092f29ded89d5a6003776e202d5b333f546bc7793a48b6cbc8a8b21",
+    "board_actions": false,
+    "formal_acceptance": false,
+    "selected_for_deployment": false,
+    "scope": "Full source-to-ELF offline rebuild with ordinary/expanded STA; no new-bit physical-board validation or performance inherited."
+  },
+  "scope": "完整preflight/host/HLS/SoC/ARM离线链，6447文件归档；新ID1/2、新bit未上板，不继承原性能或告警负责人确认。",
+  "source_hashes": [
+    {
+      "sha256": "eedf406d059003ac01f87097c3271c9d4772170af4c95e3d91c69d92063dbfcf",
+      "bytes": 3878,
+      "project_relative_source": "交付/fusion150-rc1_20261028/reproduction/full-rebuild02-review.json"
+    },
+    {
+      "sha256": "f0fa9900da12df4396d1c448f328cea69725f1a1a257e461d630d517b6f286ef",
+      "bytes": 2462,
+      "project_relative_source": "交付/fusion150-rc1_20261028/reproduction/REBUILD.md"
+    }
+  ],
+  "reading_note": "历史复建、封存或研究记录，不替代当前原bit性能；不放海报主数据区。"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "E16",
+  "title": "初版v1.0.0与最终版指标对比",
+  "claims": {
+    "schema": "v1.0.0-to-fusion150-comparison/1",
+    "baseline_commit": "4869aaa2496f3e3318ae9ebfb4eb200d065f5a09",
+    "baseline_implementation": "100MHz burst PS/PL in frozen v1.0.0, not older unoptimized 4.195ms design",
+    "historical_observation_only": true,
+    "matched_v1_final_AB_round": false,
+    "model_changed": false,
+    "baseline": {
+      "benchmark": {
+        "status": "passed",
+        "variant": "baseline",
+        "output": "原归档路径由队长留存",
+        "stage": "原归档路径由队长留存",
+        "arm_artifact": "artifacts\\arm_rebuild",
+        "soc_artifact": "artifacts\\soc_rebuild",
+        "mode": "benchmark",
+        "scope": "supplied UART log; physical provenance requires capture and artifact hashes",
+        "started_epoch": 1791520238.244275,
+        "sha256": {
+          "hardware.bit": "6d995bb6e4e39f7b52216d4647f52b691937aad096353b5f7bace3164bc2ae02",
+          "hardware.xsa": "7df3d813f4b2e3842d2cd55cfc93c2f7612c9adadb3b2b05f2c74485a8de7a3f",
+          "application.elf": "d46d2058be262834f0d8881b6f82bfa90d9097e28c405d5bb64a8327ace13352",
+          "ps7_init.tcl": "624da1267b05447415f376336fde37b5fcd335bed5746d04f28dcaf3b361535f"
+        },
+        "matrix_cases": 44,
+        "local_guard_cases": 7,
+        "measured_inferences": 60,
+        "warmup_inferences": 6,
+        "timer_hz": 333333343,
+        "cpu_median_ms": 2.903359415802577,
+        "pspl_median_ms": 3.2181224066744503,
+        "cpu_total_ms": 173.86951895778395,
+        "pspl_total_ms": 192.7899034090928,
+        "total_time_speedup": 0.9018600864633428,
+        "pspl_min_ms": 3.1367099090354125,
+        "pspl_max_ms": 3.271643905122327,
+        "timing_scope": "end-to-end inference including quantization, PS operators, copies, cache maintenance, register control and polling",
+        "uart_sha256": "ab8a54b2250f7707e5fd6947a7d49597b03d26942c73ff5ee81c776f27fb869f",
+        "finished_epoch": 1791520252.050848
+      },
+      "raw_uart_replay": {
+        "status": "passed",
+        "scope": "supplied UART log; physical provenance requires capture and artifact hashes",
+        "matrix_cases": 44,
+        "local_guard_cases": 7,
+        "measured_inferences": 60,
+        "warmup_inferences": 6,
+        "timer_hz": 333333343,
+        "cpu_median_ms": 2.903359415802577,
+        "pspl_median_ms": 3.2181224066744503,
+        "cpu_total_ms": 173.86951895778395,
+        "pspl_total_ms": 192.7899034090928,
+        "total_time_speedup": 0.9018600864633428,
+        "pspl_min_ms": 3.1367099090354125,
+        "pspl_max_ms": 3.271643905122327,
+        "timing_scope": "end-to-end inference including quantization, PS operators, copies, cache maintenance, register control and polling"
+      },
+      "validation": {
+        "status": "passed",
+        "variant": "baseline",
+        "output": "原归档路径由队长留存",
+        "stage": "原归档路径由队长留存",
+        "arm_artifact": "artifacts\\arm_validation_rebuild",
+        "soc_artifact": "artifacts\\soc_rebuild",
+        "mode": "validation",
+        "scope": "physical board via JTAG and UART; volatile programming only",
+        "started_epoch": 1791520349.3537102,
+        "sha256": {
+          "hardware.bit": "6d995bb6e4e39f7b52216d4647f52b691937aad096353b5f7bace3164bc2ae02",
+          "hardware.xsa": "7df3d813f4b2e3842d2cd55cfc93c2f7612c9adadb3b2b05f2c74485a8de7a3f",
+          "application.elf": "0214049759c18c20cba788ec21a1018d95cc4ed68d7222b5c9a906efb336332d",
+          "ps7_init.tcl": "624da1267b05447415f376336fde37b5fcd335bed5746d04f28dcaf3b361535f"
+        },
+        "validation_samples": 1796,
+        "logit_elements": 10776,
+        "raw32_calls": 17960,
+        "correct": 1449,
+        "checksum": "bd0b22ad",
+        "matrix_cases": 44,
+        "local_guard_cases": 7,
+        "uart_sha256": "8c4fb4d82e27c9e24c9b0dd88ac2b739f1b524c7d105a4a27a801dd9d3a7b15a",
+        "finished_epoch": 1791520390.1929522
+      },
+      "resources": {
+        "lut": 5576.0,
+        "ff": 6716.0,
+        "bram_tiles": 12.0,
+        "dsp": 18.0
+      },
+      "clock_mhz": 100,
+      "setup_ns": 1.331,
+      "hold_ns": 0.041,
+      "pulse_ns": 3.87,
+      "preset_clear_arcs": false,
+      "drc_warnings": 33,
+      "methodology_warnings": 3,
+      "calls_per_inference": 10,
+      "official_test_at_release": null,
+      "continuous_30min_record_at_release": null
+    },
+    "final": {
+      "single_run": {
+        "profile": "fused-net-v1",
+        "scope": "UART text consistency only",
+        "timer_hz": 333333343,
+        "measured_inferences": 60,
+        "warmup_inferences": 6,
+        "calls_per_inference": 1,
+        "pspl_median_ms": 0.04063949882145453,
+        "cpu_median_ms": 2.927188415111536,
+        "pspl_min_ms": 0.03971099884838103,
+        "pspl_max_ms": 0.04098299881149303
+      },
+      "paired_median_ms": 0.04067099882054104,
+      "paired_reduction_vs_hbank": 0.03700809774115632,
+      "resources": {
+        "lut": 41274,
+        "ff": 44768,
+        "bram_tiles": 98.5,
+        "dsp": 216
+      },
+      "clock_mhz": 150,
+      "setup_ns": 0.103,
+      "hold_ns": 0.036,
+      "pulse_ns": 2.203,
+      "preset_clear_arcs": true,
+      "calls_per_inference": 1,
+      "official_board": {
+        "schema": "fusion150-official-test-board-independent-review/1",
+        "status": "physical_board_all_2947_samples_17682_logits_exact",
+        "scope": "actual original fusion150 FPGA bit, production driver, full official test sequentially; all six raw PL logits per sample independently replayed; no new RTL, latency or sustained-throughput claim",
+        "original_capture_status_preserved": "captured_unvalidated",
+        "metrics": {
+          "samples": 2947,
+          "logits": 17682,
+          "calls": 2947,
+          "correct": 2472,
+          "checksum": "fe0d23fe",
+          "input_checksum": "5bdb007b",
+          "ticks": 12725832994,
+          "timer_hz": 333333343,
+          "device_interval_seconds": 38.17749787485256,
+          "device_interval_scope": "includes per-sample UART output and validation; not inference latency"
+        },
+        "accuracy": 0.8388191381065491,
+        "macro_f1": 0.8372657272274614,
+        "confusion_matrix_rows_true_columns_predicted": [
+          [
+            429,
+            9,
+            49,
+            8,
+            1,
+            0
+          ],
+          [
+            65,
+            359,
+            47,
+            0,
+            0,
+            0
+          ],
+          [
+            42,
+            15,
+            363,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            383,
+            102,
+            0
+          ],
+          [
+            4,
+            1,
+            0,
+            90,
+            437,
+            0
+          ],
+          [
+            0,
+            27,
+            9,
+            0,
+            0,
+            501
+          ]
+        ],
+        "comparison": "all 17682 physical-board logits equal archived NumPy/C/HLS-host reference",
+        "source_commit": "25a77db991842e9e44d8130291402d05db1ff040",
+        "original_ps_commit": "5962f58f932aa88957e5d691d494897ed44d4e8a",
+        "kernel_commit": "f4caf9b2597e07cb827b8b864cf9d42a16261cdf",
+        "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+        "xsa_sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+        "elf_sha256": "4839eadd64e15e15c0c6a44e5d6fd6a4853118e463ed484c0b87199a9aa572cb",
+        "ps_init_sha256": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020",
+        "input_sha256": "c79c2be39c220e021cbc885f8ca72b6f916eed31a439dc2eef9a88b57d49bd67",
+        "oracle_sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+        "build_token": "1d32f8e017d74d2a8c99d205c311ce44",
+        "uart_sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c",
+        "download_log_sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f",
+        "capture_result_sha256": "cde0743a3d36aad9713c8ae9a02f534d93d0418cb7c6e8c32b5e02486d75ad2f",
+        "authorization_sha256": "8d846c3b474f97e717d80cdd679dc34f562e0068001bdca3921985df5939d3d5",
+        "precompile_sha256": "e3c09a336e271eb3ed06e47a0df38c3318935018f011c7c1fd26e409bb455b25",
+        "contract_sha256": "a42ad9292ae2c067789f024f7be5916e2ddb43794b42ba25411c613d0e6c7445",
+        "reviewer_sha256": "8d447f3b21a579f74db51ad9abeb0ce0ce0aefc3e0109fafe48aa26be3023c6c",
+        "reader_parser_sha256": "4df1eec97c9b30b92b7e92d3d109e516a12254eb48f5f9a00e4e550461fc3164",
+        "reader_commit": "ed74b3c74f49810ce55c1a1c3e37d516a9744e77",
+        "reader_format_scope": "splitlines for Xilinx CR/CRLF plus case-insensitive hex values; unmodified raw UART; same strict per-sample/per-logit rules",
+        "board_logits_sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+        "board_predictions_sha256": "d7071dc7fa6b246ab70994db9c30bcba400963f9dddc67c0dcbb171c5b1e004f",
+        "model_updated": false,
+        "formal_standard_promotion": false
+      }
+    },
+    "derived": {
+      "single_run_historical_latency_ratio": 79.18705938803382,
+      "single_run_historical_latency_reduction": 0.9873716740117879,
+      "v1_cpu_over_pspl_median": 0.9021904852907245,
+      "final_cpu_over_pspl_median": 72.02816225593327,
+      "resource_ratios": {
+        "lut": 7.402080344332855,
+        "ff": 6.665872543180464,
+        "bram_tiles": 8.208333333333334,
+        "dsp": 12.0
+      },
+      "calls_reduction": 0.9
+    },
+    "qualifications": [
+      "Historical single-run observations from 2026-10-09 and 2026-10-28, not new matched board test",
+      "Same six frozen demo inputs and 6 warmup/60 measured workload verified by exact generated header SHA256",
+      "Different fabric frequency, architecture, drivers, compiler FPU flags and guard/poison policies; no attribution to single optimization",
+      "Official test quality absent at v1 release; later evaluation of same model is added coverage, not accuracy improvement",
+      "v1 RTL total is 10 GEMM transactions only, final RTL covers whole network; no cycle-ratio speed claim",
+      "No sustained throughput, power or energy measurements"
+    ]
+  },
+  "scope": "Pinned v1.0.0 original evidence, historical raw UART replays and numerical comparison only; no new paired performance claim",
+  "source_hashes": [
+    {
+      "sha256": "4410029da0f00d968d027e544f5657ec7297e598651ebd7b5d34397f1dd02245",
+      "bytes": 2083,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/README.md"
+    },
+    {
+      "sha256": "794d6c88ea3b5e46661a018383191672a1a7a0f9673e5d62e17d2b9065b0a4c2",
+      "bytes": 20744,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/comparison.json"
+    },
+    {
+      "sha256": "79bd073061b68b3a821049f64723ff63093e2181db8db3fcb36b660e131a3fe1",
+      "bytes": 12514,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/source-manifest.json"
+    },
+    {
+      "sha256": "468f6a76330711e010bea7d94eec47cf625a303162342cde8f5e9992adf32480",
+      "bytes": 6548,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/README.md"
+    },
+    {
+      "sha256": "7650e8fe51ced6e6b0c2d85e7f020a7b3f4753656a48cd75ebad849ac431778e",
+      "bytes": 2583,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/docs/STATUS.md"
+    },
+    {
+      "sha256": "4702de43dfb3822b859ef531745e1fde947df7b1713239970f1ddeabc91cf055",
+      "bytes": 1386,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/freeze/README.md"
+    },
+    {
+      "sha256": "51c8050f998e94991ac8d6147bb7564f68970685843e1828b72eb671fff7f593",
+      "bytes": 5647,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/freeze/model.lock.json"
+    },
+    {
+      "sha256": "b7418ecd03abb477d2bfecfea41361829f7de193aa5a92eecc28089b192670a7",
+      "bytes": 14471,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/freeze/engineering.lock.json"
+    },
+    {
+      "sha256": "5e90adc240fac8d193466ea26f0c4866a078595d74da6bc45275a7e1e96c678a",
+      "bytes": 2062,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/runtime/har_pl.c"
+    },
+    {
+      "sha256": "3752b4850feb50b74906b61c547db2b31d617be8a7d795c6c2cd73c3ab4e30d8",
+      "bytes": 1100,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/runtime/har_pl.h"
+    },
+    {
+      "sha256": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+      "bytes": 5531,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/runtime/har_fixed.c"
+    },
+    {
+      "sha256": "96e9d44d644eecf0e456ba5bde42b394429e7d4850108c22fc137628c1f2a103",
+      "bytes": 48946,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/runtime/generated/har_demo.h"
+    },
+    {
+      "sha256": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+      "bytes": 53136,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/runtime/generated/har_parameters.h"
+    },
+    {
+      "sha256": "f2bcec22b1382354d76b3f6b18538f6ea15519430e330d633b624f6a8b798249",
+      "bytes": 2037,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/FPGA/accelerator/hls_engine/variants/matmul_int8_burst.cpp"
+    },
+    {
+      "sha256": "5522bba1ba2c5a6e85073ba4e5da2a9e5cb7e3851e64a07f0f669f2baf1f01e9",
+      "bytes": 3617,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/tools/parse_board_log.py"
+    },
+    {
+      "sha256": "878430374a67fa470871db16a6abf4d481d5aff6360f9c9b1712c24f963cbd6b",
+      "bytes": 3840,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/arm_rebuild/result.json"
+    },
+    {
+      "sha256": "49fb522fd7ff3d8f683e51a8158df1770de9314b2a972c30e3cfc4914080b9b4",
+      "bytes": 1158,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/result.json"
+    },
+    {
+      "sha256": "42d77ef56f01a99be4e4557f477edadc7220a4589cded6685fc51f475b0db043",
+      "bytes": 895,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/hls_rebuild/result.json"
+    },
+    {
+      "sha256": "40c9ff3f76814b84cd547f9072f9d7be21786e1afbca9bd9e0bd3eaf69a1e148",
+      "bytes": 1263,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/hls_rebuild/sim/report/matmul_int8_cosim.rpt"
+    },
+    {
+      "sha256": "bb7b37f44bb209a3d6b2262851019ee5774db109b6761b6aeb906722b00f2ff1",
+      "bytes": 594,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/hls_rebuild/sim/report/verilog/result.transaction.rpt"
+    },
+    {
+      "sha256": "d7a5225b9383cabe53c0f279e194d6045589e766cba485fea6362671c30e1bee",
+      "bytes": 11934,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/impl_reports/utilization.rpt"
+    },
+    {
+      "sha256": "ffbddb628db10a8ab7a4c9a8cdf2825ff4f54dc501c3226b698187331cb603c9",
+      "bytes": 38347,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/impl_reports/timing_summary.rpt"
+    },
+    {
+      "sha256": "038ca8106ff01ec00b2203c436ea7032cab10566ad15683bfc693a8a982edfbf",
+      "bytes": 1502,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/impl_reports/clocks.rpt"
+    },
+    {
+      "sha256": "95d2fd015b607bc347b9ffaa2e313cb89f61b422cc2d178bc143eca9627eaf54",
+      "bytes": 28616,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/impl_reports/drc.rpt"
+    },
+    {
+      "sha256": "2ae85e14382f16b5697209d7e99d6a7b0f0f63092006a320c512dd30006ef2ae",
+      "bytes": 14460,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/artifacts/soc_rebuild/impl_reports/methodology.rpt"
+    },
+    {
+      "sha256": "7306a992eefa2368aff9efb3b124df5309e4972a61b3ed8109762a3357414aac",
+      "bytes": 1528,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123038/result.json"
+    },
+    {
+      "sha256": "ab8a54b2250f7707e5fd6947a7d49597b03d26942c73ff5ee81c776f27fb869f",
+      "bytes": 9407,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123038/uart.bin"
+    },
+    {
+      "sha256": "220ee3cadf52d23f3cebb7ac4fa079ec717b285ca4a507e0d83e645631de930b",
+      "bytes": 1173,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123038/download.log"
+    },
+    {
+      "sha256": "0631f3d9eb9709af21c03d4c769b24b8d7130622a8bd12614c5a32d7f7c60c5f",
+      "bytes": 1159,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123229/result.json"
+    },
+    {
+      "sha256": "8c4fb4d82e27c9e24c9b0dd88ac2b739f1b524c7d105a4a27a801dd9d3a7b15a",
+      "bytes": 5663,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123229/uart.bin"
+    },
+    {
+      "sha256": "220ee3cadf52d23f3cebb7ac4fa079ec717b285ca4a507e0d83e645631de930b",
+      "bytes": 1173,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/board_baseline_20261009_123229/download.log"
+    },
+    {
+      "sha256": "6795e6c31346c5b7c938d6dc523894373e818c767307c8d26ecd9f5b755e4d22",
+      "bytes": 1258,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/power_cycles/cycle2.json"
+    },
+    {
+      "sha256": "aa6b285caea50d45dc5d465d6756ef78e12d242e2452f1f00d854dcb48aa93e0",
+      "bytes": 1258,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/power_cycles/cycle3.json"
+    },
+    {
+      "sha256": "90def1b35d01c046718359269ccd4539dc0182410f8585de00ea0f7b61815790",
+      "bytes": 1259,
+      "project_relative_source": "交付/fusion150-v1-comparison_20261029/v1.0.0/evidence/20261009/power_cycles/cycle4.json"
+    }
+  ]
+}

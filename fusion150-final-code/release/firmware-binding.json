@@ -1,0 +1,95 @@
+{
+  "validation": {
+    "build_token": "6822676ce8ba453d8819544787327cb5",
+    "elf_sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d",
+    "compile_flags": [
+      "-mcpu=cortex-a9",
+      "-mfpu=neon",
+      "-mfloat-abi=hard",
+      "-O2",
+      "-g",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DHAR_TRANSPORT_VECTOR=1",
+      "-DHAR_VALIDATION"
+    ],
+    "compiled_source_sha256": {
+      "build_identity.h": "926a94b40b6318d41b4a78b03e7a5340bdce6cb7fbfae7598f4f5a67363e430e",
+      "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+      "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+      "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+      "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+      "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+      "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+      "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+      "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+      "main_zynq.c": "7e8d274349bfbd969822ec8541428dd56fa7c7545ebbf2cd89b1b22dc19ad7e7",
+      "ps7_init.c": "5d4c39e76d095e9fec7706514ad3f421e0654d297d282b29416a1761fdd1435d",
+      "ps7_init.h": "45210917569b508cc43b1a0d2c0a204cb88972095771bf1cffc2f2ac24fcf457",
+      "ps7_init_gpl.c": "8151053a195aa587c347b5bd4620f92b54ce2c1f5dbb108dc20873d9c9b0efa5",
+      "ps7_init_gpl.h": "db09e7957dc63d2c94dc5303471e2c8c89694756a0c35ca98eacd6c6c58d652c",
+      "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+    }
+  },
+  "benchmark": {
+    "build_token": "0941f5d661774b83a9b61378f1ab62f7",
+    "elf_sha256": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc",
+    "compile_flags": [
+      "-mcpu=cortex-a9",
+      "-mfpu=neon",
+      "-mfloat-abi=hard",
+      "-O2",
+      "-g",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DHAR_TRANSPORT_VECTOR=1"
+    ],
+    "compiled_source_sha256": {
+      "build_identity.h": "fce07118ba626a4f0f4b1245b08192e7d050d092b8763be3cbaad1659955bbaa",
+      "har_demo.h": "96e9d44d644eecf0e456ba5bde42b394429e7d4850108c22fc137628c1f2a103",
+      "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+      "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+      "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+      "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+      "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+      "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+      "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+      "main_zynq.c": "7e8d274349bfbd969822ec8541428dd56fa7c7545ebbf2cd89b1b22dc19ad7e7",
+      "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+    }
+  },
+  "lifecycle": {
+    "build_token": "12a44eaef41543e0aa4577465c3e4372",
+    "elf_sha256": "684a0d27f5b3478aa6c1e1e93647a920c788cd9b4111c48e4cd22a08c72a5963",
+    "compile_flags": [
+      "-mcpu=cortex-a9",
+      "-mfpu=neon",
+      "-mfloat-abi=hard",
+      "-O2",
+      "-g",
+      "-std=c99",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DHAR_TRANSPORT_VECTOR=1",
+      "-DHAR_VALIDATION"
+    ],
+    "compiled_source_sha256": {
+      "build_identity.h": "75e44509ad77e352385348d04f7b67ecd4b6f875d98c7960eb80da9165057125",
+      "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+      "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+      "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+      "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+      "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+      "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+      "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+      "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+      "main_zynq.c": "f977cf55da89c01aaffec851812b0e62e50a81a804d87a672779f80a9d07c95b",
+      "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+    }
+  }
+}

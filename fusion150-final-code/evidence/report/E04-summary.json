@@ -1,0 +1,85 @@
+{
+  "id": "E04",
+  "title": "原实现STA和资源",
+  "claims": {
+    "clock_mhz": 150,
+    "ordinary_timing": {
+      "setup": {
+        "worst_slack_ns": 0.103,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 120125
+      },
+      "hold": {
+        "worst_slack_ns": 0.036,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 120125
+      },
+      "pulse_width": {
+        "worst_slack_ns": 2.203,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 50285
+      }
+    },
+    "expanded_timing": {
+      "setup": {
+        "worst_slack_ns": 0.103,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 120125
+      },
+      "hold": {
+        "worst_slack_ns": 0.036,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 120125
+      },
+      "pulse_width": {
+        "worst_slack_ns": 2.203,
+        "total_negative_slack_ns": 0.0,
+        "failing_endpoints": 0,
+        "total_endpoints": 50285
+      }
+    },
+    "resources": {
+      "lut": 41274.0,
+      "ff": 44768.0,
+      "bram_tiles": 98.5,
+      "dsp": 216.0
+    },
+    "warning_counts": {
+      "DPOP-1": 9,
+      "DPOP-2": 12
+    }
+  },
+  "scope": "原bit对应普通/扩大preset-clear时序；setup余量+0.103ns不证明全温压、多板或任意工作条件合格。",
+  "source_hashes": [
+    {
+      "sha256": "1cbd3851f9c79aae88619d5a63121d741bbad41dcf147278aaf372a4df4b6280",
+      "bytes": 46157,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/1c/1cbd3851f9c79aae88619d5a63121d741bbad41dcf147278aaf372a4df4b6280"
+    },
+    {
+      "sha256": "f5311d149bdc1d37ac51e5f3382e1956bd4facdecb99fee9c788340c104944ec",
+      "bytes": 37266,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/f5/f5311d149bdc1d37ac51e5f3382e1956bd4facdecb99fee9c788340c104944ec"
+    },
+    {
+      "sha256": "96959292e41ef26862868a2ba34c848a018023af7e7d3ed00bf0d67b20c2d22f",
+      "bytes": 11887,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/96/96959292e41ef26862868a2ba34c848a018023af7e7d3ed00bf0d67b20c2d22f"
+    },
+    {
+      "sha256": "deece8b3ec09bb9612459a30142176115f449cad6f85cdd8d10ec87e8a509adf",
+      "bytes": 1483,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/de/deece8b3ec09bb9612459a30142176115f449cad6f85cdd8d10ec87e8a509adf"
+    },
+    {
+      "sha256": "c6169122d41f5a658a077e7bbce2b9b4c9eb58295c3a5b2ca2679a224f2fc452",
+      "bytes": 153233,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/c6/c6169122d41f5a658a077e7bbce2b9b4c9eb58295c3a5b2ca2679a224f2fc452"
+    }
+  ]
+}

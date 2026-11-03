@@ -1,0 +1,13 @@
+  1  Digilent JTAG-HS1 210512180081
+     2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)
+BOOT_MODE_RAW=0
+VERIFIED_CORE_STATE=Stopped: (Suspended)
+VERIFIED_CORE_STATE=Stopped: (Suspended)
+VERIFIED_CORE_STATE=Stopped: (Suspended)
+VERIFIED_CORE_STATE=Stopped: (Suspended)
+HAR_FPGA_PROGRAMMED
+VERIFIED_CORE_STATE=Stopped: (Suspended)
+HAR_PS_INIT_DONE
+HAR_ELF_DOWNLOADED
+HAR_APPLICATION_STARTED

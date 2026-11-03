@@ -1,0 +1,74 @@
+{
+  "validation_index": 84,
+  "is_classification_disagreement": true,
+  "layers": {
+    "embedding": {
+      "mean_abs_error": 0.009792490165636991,
+      "max_abs_error": 0.037397146224975586
+    },
+    "norm1_output": {
+      "mean_abs_error": 0.012391552377266635,
+      "max_abs_error": 0.05623733997344971
+    },
+    "q": {
+      "mean_abs_error": 0.01395932084415108,
+      "max_abs_error": 0.05390596389770508
+    },
+    "k": {
+      "mean_abs_error": 0.015315342043322744,
+      "max_abs_error": 0.06810611486434937
+    },
+    "v": {
+      "mean_abs_error": 0.01593520298411022,
+      "max_abs_error": 0.09366655349731445
+    },
+    "attention_scores": {
+      "mean_abs_error": 0.05199029330651683,
+      "max_abs_error": 0.24143242835998535
+    },
+    "softmax_prob": {
+      "mean_abs_error": 0.001030625441952815,
+      "max_abs_error": 0.02173665165901184
+    },
+    "av": {
+      "mean_abs_error": 0.019133265732762084,
+      "max_abs_error": 0.08187377452850342
+    },
+    "output_projection": {
+      "mean_abs_error": 0.021438572643091902,
+      "max_abs_error": 0.07974272966384888
+    },
+    "norm2_input": {
+      "mean_abs_error": 0.022900512150954455,
+      "max_abs_error": 0.08938789367675781
+    },
+    "norm2_output": {
+      "mean_abs_error": 0.019130560913254158,
+      "max_abs_error": 0.0915866494178772
+    },
+    "ff1_pre_relu": {
+      "mean_abs_error": 0.028821769170463085,
+      "max_abs_error": 0.17763961851596832
+    },
+    "ff1_post_relu": {
+      "mean_abs_error": 0.016235009617957985,
+      "max_abs_error": 0.15094292163848877
+    },
+    "ff2": {
+      "mean_abs_error": 0.04812697430315893,
+      "max_abs_error": 0.2847938537597656
+    },
+    "pool_input": {
+      "mean_abs_error": 0.05851192824775353,
+      "max_abs_error": 0.33231401443481445
+    },
+    "pool_output": {
+      "mean_abs_error": 0.04714099131524563,
+      "max_abs_error": 0.12477684020996094
+    },
+    "logits": {
+      "mean_abs_error": 0.10379066069920857,
+      "max_abs_error": 0.2633399963378906
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Preserve exact source, vector, log and deployed-artifact bytes.
+# Disable text conversion, content filters and ident substitution.
+* -text -filter -ident

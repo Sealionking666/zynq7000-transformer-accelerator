@@ -1,0 +1,26 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and local OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep all generated runtime/build output outside the sealed package.
+/out/
+/build/
+/builds/
+/runs/
+/tmp/
+/logs/
+
+# Original evidence and release files must remain tracked.
+# Do not add blanket ignores for *.log, *.bin, *.bit, *.elf or *.xsa.

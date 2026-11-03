@@ -1,0 +1,9 @@
+{
+  "samples": 1796,
+  "logits": 10776,
+  "expected_checksum": "bd0b22ad",
+  "correct": 1449,
+  "official_test_accessed": false,
+  "inputs_sha256": "e82cb2b39d27542534ff55e79b681c3d1a54ea4261a3e49e7a08090924410439",
+  "logits_sha256": "72edc16ef059e61f2cb4ff049dbae77a42539c179e7be144ec1437273aa88eee"
+}

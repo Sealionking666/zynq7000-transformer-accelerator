@@ -1,0 +1,436 @@
+{
+  "status": "candidate_only_not_frozen",
+  "calibration_split": "validation_only",
+  "scale_definition": "real_value = int8_value * scale",
+  "q_and_k_share_activation_scale": true,
+  "activation": {
+    "input": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.03125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 2.9884159564971924,
+      "clipped_fraction": 1.4499814402375649e-05,
+      "samples": 2068992
+    },
+    "embedding": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.034627118777548,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "norm1_input": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.034627118777548,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "norm1_output": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.03125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 3.087107329892821,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "q": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.102312498998621,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "k": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.102312498998621,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "v": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.03125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 3.6909467218875327,
+      "clipped_fraction": 1.0874860801781737e-06,
+      "samples": 919552
+    },
+    "attention_scores": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 8.976005453776747,
+      "clipped_fraction": 0.0,
+      "samples": 1839104
+    },
+    "softmax_prob": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0078125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 0.8639279410778734,
+      "clipped_fraction": 0.0,
+      "samples": 1839104
+    },
+    "av": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.03125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 2.719125476002639,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "output_projection": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.03125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 3.3970559069870045,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "norm2_input": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.657599064826634,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "norm2_output": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 4.282418773603112,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "ff1_pre_relu": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 5.638995343017552,
+      "clipped_fraction": 0.0,
+      "samples": 1839104
+    },
+    "ff1_post_relu": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.0625,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 5.638995343017552,
+      "clipped_fraction": 0.0,
+      "samples": 1839104
+    },
+    "ff2": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 11.141162837028258,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "pool_input": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 13.66187197322761,
+      "clipped_fraction": 0.0,
+      "samples": 919552
+    },
+    "pool_output": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.125,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 12.905554176330368,
+      "clipped_fraction": 0.0,
+      "samples": 28736
+    },
+    "logits": {
+      "format": "signed_int8_symmetric_candidate",
+      "scale": 0.25,
+      "zero_point": 0,
+      "selection": "validation |x| percentile 99.99; rounded up to power of two",
+      "target_abs": 23.095512194633464,
+      "clipped_fraction": 0.0,
+      "samples": 10776
+    }
+  },
+  "weight_per_channel_exploratory": {
+    "embed": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625
+      ],
+      "max_abs_quantization_error": 0.0038865506649017334
+    },
+    "q": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625
+      ],
+      "max_abs_quantization_error": 0.0039035379886627197
+    },
+    "k": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.001953125,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625
+      ],
+      "max_abs_quantization_error": 0.003822028636932373
+    },
+    "v": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125
+      ],
+      "max_abs_quantization_error": 0.0035044848918914795
+    },
+    "out": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625
+      ],
+      "max_abs_quantization_error": 0.001947849988937378
+    },
+    "ff1": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.0078125,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625
+      ],
+      "max_abs_quantization_error": 0.0038633793592453003
+    },
+    "ff2": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125,
+        0.0078125,
+        0.00390625,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.00390625,
+        0.0078125
+      ],
+      "max_abs_quantization_error": 0.00387495756149292
+    },
+    "classifier": {
+      "format": "signed_int8_per_output_channel_candidate",
+      "zero_point": 0,
+      "scales": [
+        0.00390625,
+        0.0078125,
+        0.0078125,
+        0.00390625,
+        0.00390625,
+        0.0078125
+      ],
+      "max_abs_quantization_error": 0.003611922264099121
+    }
+  },
+  "hardware_first_pass": {
+    "weight_granularity": "per_tensor_symmetric_int8",
+    "weight": {
+      "embed": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.003905653953552246
+      },
+      "q": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.0039035379886627197
+      },
+      "k": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.0039027631282806396
+      },
+      "v": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.0038634687662124634
+      },
+      "out": {
+        "scale": 0.00390625,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.001947849988937378
+      },
+      "ff1": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.003903627395629883
+      },
+      "ff2": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.003902032971382141
+      },
+      "classifier": {
+        "scale": 0.0078125,
+        "zero_point": 0,
+        "max_abs_quantization_error": 0.0038751959800720215
+      }
+    },
+    "matrix_shift_candidates": {
+      "embed": 8,
+      "q": 8,
+      "k": 8,
+      "v": 7,
+      "out": 8,
+      "ff1": 7,
+      "ff2": 8,
+      "classifier": 8,
+      "qk_scores": 7,
+      "av": 7
+    },
+    "shift_semantics": "floor(acc / 2**shift), then int8 saturation; excludes bias/add/norm/softmax"
+  },
+  "unresolved": [
+    "actual HLS vectors.h file and testbench integration",
+    "bias and residual integer contract",
+    "integer Softmax approximation",
+    "integer RMSNorm approximation",
+    "full-network integer agreement"
+  ]
+}

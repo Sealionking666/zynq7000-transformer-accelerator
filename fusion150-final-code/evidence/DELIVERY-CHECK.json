@@ -1,0 +1,62 @@
+{
+  "schema": "final-code-local-delivery-check/1",
+  "date": "2026-11-02",
+  "status": "final_source_entrypoints_verified",
+  "full_rebuild": {
+    "stages": {
+      "preflight": {
+        "status": "passed",
+        "manifest_sha256": "977b6e2a10690154f90c8f22b1d3cfc07442fe166ba666867b73d76327fff449"
+      },
+      "host": {
+        "status": "passed",
+        "manifest_sha256": "3f86f2d1af1d941ddcddba79aba7034e7a13eed8f8a15a92d14273d1d33bc221"
+      },
+      "hls": {
+        "status": "passed",
+        "manifest_sha256": "10cb3a2e13dcd138d673344c8c3830d9174e889db0d917af8c3de36a7fc6d20a"
+      },
+      "soc": {
+        "status": "passed",
+        "manifest_sha256": "a7200fa816fd84a6709f63b0d39c69ea16b1f9d770c58cbe2e381cf019d98e48"
+      },
+      "arm": {
+        "status": "passed",
+        "manifest_sha256": "d5eef4cc4ad7b96c1fe3d5403a765436df0e27c6d4165e280632db3ef709d65d"
+      }
+    },
+    "actual_source_roles": [
+      "kernel",
+      "soc",
+      "firmware"
+    ],
+    "tool_calls": 18,
+    "generated_master_ids": {
+      "m_axi_gmem_in": "2",
+      "m_axi_gmem_out": "1"
+    },
+    "new_bit_sha256": "1b8c2b1dfc04f6f99ceeeb976b3243e27a1e03f80395faa96aac62a0c4f97615",
+    "new_bit_deployed_or_board_validated": false
+  },
+  "firmware_against_original_XSA_BSP": {
+    "purposes": [
+      "validation",
+      "benchmark",
+      "lifecycle",
+      "stress",
+      "official"
+    ],
+    "PT_LOAD_and_entry_equal_to_original_final_ELF": true,
+    "new_files_deployed": false
+  },
+  "inputs_equal_to_previously_verified_full_build": 59,
+  "compiled_inputs_equal_to_original_final_firmware": 60,
+  "original_deployed_bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "new_board_controller": {
+    "offline_contract_checked": true,
+    "live_board_tested_this_round": false
+  },
+  "official_test_verification": "Replay of 2026-10-29 UART, not a new board run",
+  "original_model_and_deployment_changed": false,
+  "github_push_or_competition_upload": false
+}

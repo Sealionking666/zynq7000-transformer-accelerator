@@ -1,0 +1,3 @@
+DEMO_TB_PASS demo=6
+VALIDATION samples=1796 logits=10776 correct=1449 checksum=bd0b22ad
+HOST_EQUIV_PASS

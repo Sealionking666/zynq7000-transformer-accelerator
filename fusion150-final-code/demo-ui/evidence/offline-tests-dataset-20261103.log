@@ -1,0 +1,21 @@
+test_no_autorun_gets_concurrency_export_and_persistence (test_demo.HttpTests.test_no_autorun_gets_concurrency_export_and_persistence) ... ok
+test_actual_three_sources (test_demo.ParserTests.test_actual_three_sources) ... ok
+test_benchmark_coverage_and_bad_timer (test_demo.ParserTests.test_benchmark_coverage_and_bad_timer) ... ok
+test_benchmark_timer_warmup (test_demo.ParserTests.test_benchmark_timer_warmup) ... ok
+test_bridge_stop_runs_original_finally (test_demo.ParserTests.test_bridge_stop_runs_original_finally) ... ok
+test_end_marker_alone_not_pass (test_demo.ParserTests.test_end_marker_alone_not_pass) ... ok
+test_fail_wrong_checksum_duplicate_and_profile (test_demo.ParserTests.test_fail_wrong_checksum_duplicate_and_profile) ... ok
+test_interrupted_worker_cannot_become_passed (test_demo.ParserTests.test_interrupted_worker_cannot_become_passed) ... ok
+test_metadata_sharing_violation_is_bounded_retry (test_demo.ParserTests.test_metadata_sharing_violation_is_bounded_retry) ... ok
+test_official_corrupt_actual_logit (test_demo.ParserTests.test_official_corrupt_actual_logit) ... ok
+test_official_independent_raw_logits (test_demo.ParserTests.test_official_independent_raw_logits) ... ok
+test_official_live_routing_requires_fresh_authorization (test_demo.ParserTests.test_official_live_routing_requires_fresh_authorization) ... ok
+test_official_worker_adapter_timeout_and_exact_review (test_demo.ParserTests.test_official_worker_adapter_timeout_and_exact_review) ... ok
+test_partial_progress_is_observed_only (test_demo.ParserTests.test_partial_progress_is_observed_only) ... ok
+test_truncation_all_three (test_demo.ParserTests.test_truncation_all_three) ... ok
+test_validation_scope_and_missing_classification (test_demo.ParserTests.test_validation_scope_and_missing_classification) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 5.293s
+
+OK

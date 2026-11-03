@@ -1,0 +1,36 @@
+{
+  "bits": 8,
+  "activation_rounding": "nearest",
+  "activation_exp": {
+    "input": -5,
+    "embedding": -4,
+    "norm1_input": -4,
+    "norm1_output": -5,
+    "q": -4,
+    "k": -4,
+    "v": -5,
+    "attention_scores": -3,
+    "softmax_prob": -7,
+    "av": -5,
+    "output_projection": -5,
+    "norm2_input": -4,
+    "norm2_output": -4,
+    "ff1_pre_relu": -4,
+    "ff1_post_relu": -4,
+    "ff2": -3,
+    "pool_input": -3,
+    "pool_output": -3,
+    "logits": -2
+  },
+  "weight_exp": {
+    "embed": -7,
+    "q": -7,
+    "k": -7,
+    "v": -7,
+    "out": -8,
+    "ff1": -7,
+    "ff2": -7,
+    "classifier": -7
+  },
+  "epsilon_q32": 42950
+}

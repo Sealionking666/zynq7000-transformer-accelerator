@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-02T13:32:10.911Z",
+  "ports": [
+    "COM5"
+  ],
+  "results": [
+    {
+      "purpose": "validation",
+      "job": "4dd633db370d4c4a8e211f863053746f",
+      "status": "已完成",
+      "banner": "本次实体板采集 · 原 release 工件 · 以原始记录和独立核验为准",
+      "phase": "采集及独立复核完成",
+      "exit": "已退出 · code 0",
+      "review": "独立汇总核验（非逐logit）",
+      "numerical": "数值验证：固件报告数值通过；独立核对汇总通过",
+      "latency": "未提供",
+      "accuracy": "1449/1796 · 80.68%",
+      "reason": "1796样本、8个进度checksum、10776 logits计数、1796调用及最终bd0b22ad一致；原固件负责逐值比较"
+    },
+    {
+      "purpose": "benchmark",
+      "job": "898c63d174c14515924ad6ac8dfb5ed3",
+      "status": "已完成",
+      "banner": "本次实体板采集 · 原 release 工件 · 以原始记录和独立核验为准",
+      "phase": "采集及独立复核完成",
+      "exit": "已退出 · code 0",
+      "review": "独立计时与覆盖核验（非逐logit）",
+      "numerical": "数值验证：固件报告数值通过；独立计时核验通过",
+      "latency": "40.668 μs",
+      "accuracy": "未提供",
+      "reason": "66条顺序正确；排除6预热，60次正式计时；原固件负责PL/ARM/冻结参考逐值比较"
+    }
+  ],
+  "javascript_errors": [],
+  "via_actual_web_buttons": true
+}

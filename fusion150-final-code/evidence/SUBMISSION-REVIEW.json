@@ -1,0 +1,35 @@
+{
+  "schema": "fusion150-submission-review/1",
+  "date": "2026-11-02",
+  "scope": "Delivery helper corrections and compact report evidence; numerical/hardware/deployed files unchanged",
+  "changes": [
+    "Correct package manifest hash field and retain candidate hash separately",
+    "Reject build/capture/review output directories inside package",
+    "Official UART replay checks token, complete vector data and elapsed timer consistency",
+    "Firmware command records failures for its newly created attempt without rewriting prior attempts",
+    "Include compact source-bound report evidence"
+  ],
+  "offline_tests": {
+    "count": 7,
+    "status": "passed",
+    "log_sha256": "204c4d71b74f46441a6d82099252e94bdb79bfef4f501bf3d48d7840ba920c96"
+  },
+  "protected_file_count": 820,
+  "protected_files_unchanged": true,
+  "previous_full_rebuild": "DELIVERY-CHECK.json",
+  "new_full_EDA": false,
+  "new_board_run": false,
+  "hardware_model_or_performance_change": false,
+  "original_submission_manifest_sha256": "05a6c6f03d834c62e1119cc742ef9c9540a70c297b1d8aaa05c7b5d13979988a",
+  "revision_validation": {
+    "preflight": "passed",
+    "host_1796": "passed",
+    "independent_C_probe": "passed",
+    "five_ARM_firmware_builds": "passed",
+    "five_ELF_entry_and_PT_LOAD_comparisons": "passed",
+    "previous_staging_59_inputs": "identical",
+    "detail": "submission-review/rebuild-comparison.json",
+    "tested_manifest_sha256": "84a5c9abb1d66838df66cf96b056d56e56e77d99e8de9340d0c419503fbd1653",
+    "tested_manifest_note": "Builds ran before adding these validation records; final packaging separately verifies the updated manifest."
+  }
+}

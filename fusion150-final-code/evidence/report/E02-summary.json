@@ -1,0 +1,57 @@
+{
+  "id": "E02",
+  "title": "模型与整网PL源码",
+  "claims": {
+    "model_config": {
+      "model": "HARTransformer",
+      "input_shape": [
+        128,
+        9
+      ],
+      "patch": 4,
+      "tokens": 32,
+      "width": 16,
+      "heads": 1,
+      "layers": 1,
+      "ff_width": 32,
+      "classes": 6,
+      "position_encoding": "fixed sinusoidal"
+    },
+    "hls_source_sha256": "da73dc4416a55e3b49ecaa0c56655738f4eb15db19732e7c8fbf3e7000f5791c",
+    "interface": "1152 int32 Q16 inputs / 6 int32 logits; one fused PL invocation",
+    "arithmetic": "INT8 multiplication, INT32 accumulation and Q16 activations; frozen integer rounding, saturation, norms and softmax"
+  },
+  "scope": "源码层面的结构说明；所有网络算子在PL内，PS负责生产驱动/缓存/生命周期；不把早期10次GEMM版当成当前实现。",
+  "source_hashes": [
+    {
+      "sha256": "841d6e728cc7cc40278779d12509ba27a3631ecf0871d8ee74ab0898584b23a6",
+      "bytes": 27924781,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/kernel.zip"
+    },
+    {
+      "sha256": "841d6e728cc7cc40278779d12509ba27a3631ecf0871d8ee74ab0898584b23a6",
+      "bytes": 27924781,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/kernel.zip"
+    },
+    {
+      "sha256": "841d6e728cc7cc40278779d12509ba27a3631ecf0871d8ee74ab0898584b23a6",
+      "bytes": 27924781,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/kernel.zip"
+    },
+    {
+      "sha256": "841d6e728cc7cc40278779d12509ba27a3631ecf0871d8ee74ab0898584b23a6",
+      "bytes": 27924781,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/kernel.zip"
+    },
+    {
+      "sha256": "841d6e728cc7cc40278779d12509ba27a3631ecf0871d8ee74ab0898584b23a6",
+      "bytes": 27924781,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/kernel.zip"
+    },
+    {
+      "sha256": "2dfb5fabca23a25b6c5cae0903b253584728041c289aabb98c37e959c2ece3c4",
+      "bytes": 29528345,
+      "project_relative_source": "交付/fusion150-rc1_20261028/sources/firmware.zip"
+    }
+  ]
+}

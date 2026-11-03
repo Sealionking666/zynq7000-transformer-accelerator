@@ -1,0 +1,106 @@
+{
+  "schema": "fusion150-demo-ui-dataset-switch/1",
+  "date": "2026-11-03",
+  "choices": {
+    "development": {
+      "purpose": "validation",
+      "samples": 1796,
+      "elf": "release/validation.elf",
+      "independent_scope": "aggregate only"
+    },
+    "official_test": {
+      "purpose": "official",
+      "samples": 2947,
+      "logits": 17682,
+      "elf": "release/official.elf",
+      "independent_scope": "per-logit exact"
+    }
+  },
+  "benchmark": "unchanged fixed 6 inputs, 6 warmups and 60 measured calls",
+  "original_collector_timeout_seconds": 300,
+  "official_wrapper_timeout_seconds": 350,
+  "offline_tests": 16,
+  "offline_log_sha256": "686c80acb701402f4b2b20e961cd385a6db43abc7742c34db4f4b244be4002e2",
+  "browser": {
+    "recorded": "2026-11-03T04:30:25.994Z",
+    "actual_browser": "Microsoft Edge / Playwright",
+    "dataset_options": [
+      "开发集1796",
+      "官方test2947"
+    ],
+    "official_button_correct": true,
+    "dataset_change_clears_confirmations": true,
+    "intercepted_live_requests": [
+      {
+        "purpose": "validation",
+        "mode": "live",
+        "confirmations": {
+          "powered": true,
+          "jtag": true,
+          "exclusive": true,
+          "volatile": true
+        }
+      },
+      {
+        "purpose": "official",
+        "mode": "live",
+        "confirmations": {
+          "powered": true,
+          "jtag": true,
+          "exclusive": true,
+          "volatile": true
+        }
+      },
+      {
+        "purpose": "benchmark",
+        "mode": "live",
+        "confirmations": {
+          "powered": true,
+          "jtag": true,
+          "exclusive": true,
+          "volatile": true
+        }
+      }
+    ],
+    "live_requests_forwarded_to_server": 0,
+    "job_count": 1,
+    "real_history_job": "5933be9ab8854c3cb5d1f99434873b26",
+    "history_mode": "replay",
+    "original_log_source": {
+      "id": "official",
+      "purpose": "official",
+      "path": "evidence/official-uart.bin",
+      "record_date": "2026-10-29实体板记录",
+      "label": "官方test 2947条 · 历史验证",
+      "sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c"
+    },
+    "independent_review": "独立逐logit核验",
+    "correctness": "2472/2947 · 83.88%",
+    "selected_result_not_relabelled_by_dataset_change": true,
+    "refresh_preserved_record": true,
+    "export_downloaded": true,
+    "widths_checked": [
+      1440,
+      1366,
+      720
+    ],
+    "javascript_errors": [],
+    "new_official_board_test": false
+  },
+  "browser_record_sha256": "755d88e19a8e940776289ac2eb3c1ffd63da34033e87387967fa494255efe630",
+  "screenshot": {
+    "path": "screenshots/06_数据集选择_官方test历史回放_20261103.png",
+    "sha256": "703d429f7fb0fa68f143e1d7437c85f9e5d3d49e021c32a234f7ccf9251fdf7e",
+    "mode": "historical replay"
+  },
+  "new_board_downloads": 0,
+  "new_official_board_test": false,
+  "original_tools_and_release_unchanged": true,
+  "original_report_unchanged": true,
+  "unverified_after_this_UI_revision": [
+    "Official live board button end-to-end",
+    "Mid-run physical stop",
+    "Physical USB/power faults",
+    "Second computer"
+  ]
+}

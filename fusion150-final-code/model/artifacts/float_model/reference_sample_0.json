@@ -1,0 +1,26 @@
+{
+  "validation_index": 0,
+  "label_zero_based": 4,
+  "predicted_zero_based": 4,
+  "sha256": "086f573a958af60c8bd30b868265ae2797a18f0680f827abc0a9ff522530a204",
+  "layers": [
+    "embedding",
+    "norm1_input",
+    "norm1_output",
+    "q",
+    "k",
+    "v",
+    "attention_scores",
+    "softmax_prob",
+    "av",
+    "output_projection",
+    "norm2_input",
+    "norm2_output",
+    "ff1_pre_relu",
+    "ff1_post_relu",
+    "ff2",
+    "pool_input",
+    "pool_output",
+    "logits"
+  ]
+}

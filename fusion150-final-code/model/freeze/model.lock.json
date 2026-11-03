@@ -1,0 +1,157 @@
+{
+  "release": "v1.0.0",
+  "frozen_on": "2026-10-11",
+  "origin": "2026-10-04 delivery; identical model in verified 2026-10-09 rebuild",
+  "official_test_evaluated": false,
+  "scope": "Frozen model, integer semantics, data and golden outputs",
+  "architecture": {
+    "input": [
+      128,
+      9
+    ],
+    "patch": 4,
+    "tokens": 32,
+    "hidden": 16,
+    "heads": 1,
+    "layers": 1,
+    "ffn": [
+      16,
+      32,
+      16
+    ],
+    "classes": 6
+  },
+  "numeric_contract": "INT8 GEMM inputs/weights, INT32 raw output, Q16 PS, nearest activation, floor scale reduction",
+  "development_validation": {
+    "samples": 1796,
+    "correct": 1449,
+    "checksum": "bd0b22ad",
+    "used_for_model_selection_and_calibration": true
+  },
+  "files": {
+    "artifacts/c_runtime/independent_C_CPU_GEMM_logits.npy": {
+      "bytes": 43232,
+      "sha256": "efda62b12b3e093d168bd54145a5a9005f0a11d9a8d108a871837cc141df9d66"
+    },
+    "artifacts/fixed_int8_nearest/contract.json": {
+      "bytes": 676,
+      "sha256": "f781adbdfe1a75031d95ce5c101fc6d2ab1459082e80784228c6a014f0e2e5ab"
+    },
+    "artifacts/fixed_int8_nearest/first_difference.json": {
+      "bytes": 2105,
+      "sha256": "978c27e873a8dfc2f7e8e8880a9de4628d0099b2119e1ca757fa00e1a991bd0c"
+    },
+    "artifacts/fixed_int8_nearest/parameters.npz": {
+      "bytes": 23182,
+      "sha256": "f43fb9af2b21355b3b705c04293cc75c7b4be8487160d74f735fce975545ddc5"
+    },
+    "artifacts/fixed_int8_nearest/predictions.npz": {
+      "bytes": 71108,
+      "sha256": "dcc746cdc2b8edaeea48e86a64833f6d11b4540b8b3e80d47bcc3a1bfdbe2b59"
+    },
+    "artifacts/fixed_int8_nearest/reference_sample.npz": {
+      "bytes": 73282,
+      "sha256": "78e266a8533ad8147cdeeae8cb436e8f89136ce504f348fad283d024977f81a0"
+    },
+    "artifacts/fixed_int8_nearest/validation.json": {
+      "bytes": 1501,
+      "sha256": "68a656327163fb3b559e9975ef5589b45e1c4f46eaf8b790ec58bc4e24946903"
+    },
+    "artifacts/float_model/config.json": {
+      "bytes": 553,
+      "sha256": "3e4e500da30dc52d932a8ed6736e5dc5277d089d8a82fa3ec9d3667dcb78b4ff"
+    },
+    "artifacts/float_model/history.json": {
+      "bytes": 7747,
+      "sha256": "05b93534f26e8be24cfc7dc3d60a46c76a7050f95eb0a5a4eb07581dd19318d8"
+    },
+    "artifacts/float_model/reference_sample_0.json": {
+      "bytes": 510,
+      "sha256": "988231eddd5695e1b5a1b3d314a16ec6132a403c6f660a3b2db6f7aca4ae2b7e"
+    },
+    "artifacts/float_model/reference_sample_0.npz": {
+      "bytes": 44998,
+      "sha256": "086f573a958af60c8bd30b868265ae2797a18f0680f827abc0a9ff522530a204"
+    },
+    "artifacts/float_model/train.log": {
+      "bytes": 6655,
+      "sha256": "bab7a1e349aeec637123854edd927d986d0242453386c9caf7bfdee76bd75b28"
+    },
+    "artifacts/float_model/train_repeat.log": {
+      "bytes": 6655,
+      "sha256": "bab7a1e349aeec637123854edd927d986d0242453386c9caf7bfdee76bd75b28"
+    },
+    "artifacts/float_model/weights.pt": {
+      "bytes": 19434,
+      "sha256": "052b295453982942843fbb65b9e51f889a2c4789fc6ff0b3be68a3b16e82c027"
+    },
+    "artifacts/full_validation_inputs.json": {
+      "bytes": 311,
+      "sha256": "6d15585228a6306a3ac468f8b52aeacb21660ab31689c62a24a4e9a44e0cf6d6"
+    },
+    "artifacts/quant_candidate.json": {
+      "bytes": 12306,
+      "sha256": "dc51ca895b256be5dbd759c9178d7d0b4b6b2f83e7207485565e15c49302d2aa"
+    },
+    "data/processed/train_val.npz": {
+      "bytes": 17319949,
+      "sha256": "822cbfe880776d426de58f54dd11894c006a52e0687b2ad8268f5236ee24dfe2"
+    },
+    "FPGA/runtime/generated/har_demo.h": {
+      "bytes": 48946,
+      "sha256": "96e9d44d644eecf0e456ba5bde42b394429e7d4850108c22fc137628c1f2a103"
+    },
+    "FPGA/runtime/generated/har_parameters.h": {
+      "bytes": 53136,
+      "sha256": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63"
+    },
+    "FPGA/runtime/generated/model_vectors.h": {
+      "bytes": 60617,
+      "sha256": "7201a2672e1569cc302c40f30eff429fdb47800be87fdcc426df771b34572855"
+    },
+    "FPGA/runtime/generated/model_vectors.json": {
+      "bytes": 62368,
+      "sha256": "56009c4270aeee197514b3c15f29909060eadaf5b8984073edd9fd2395a469b3"
+    },
+    "FPGA/runtime/har_fixed.c": {
+      "bytes": 5531,
+      "sha256": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0"
+    },
+    "FPGA/runtime/har_fixed.h": {
+      "bytes": 951,
+      "sha256": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608"
+    },
+    "FPGA/runtime/validation/generated/har_demo.h": {
+      "bytes": 11671865,
+      "sha256": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337"
+    },
+    "FPGA/runtime/validation/generated/har_parameters.h": {
+      "bytes": 53136,
+      "sha256": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63"
+    },
+    "FPGA/runtime/validation/har_fixed.c": {
+      "bytes": 5531,
+      "sha256": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0"
+    },
+    "FPGA/runtime/validation/har_fixed.h": {
+      "bytes": 951,
+      "sha256": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608"
+    },
+    "har_accel/data.py": {
+      "bytes": 4400,
+      "sha256": "0a0904869f79c5f6046ba3bbda5f04dd9cfa825b9642277f0bed82fe0e0a33f6"
+    },
+    "har_accel/fixed_network.py": {
+      "bytes": 7889,
+      "sha256": "2124ec9678b974b8ce12d2f2b5dcaf89799e1859af449f5e91d481c97dbb0bf1"
+    },
+    "har_accel/integer_gemm.py": {
+      "bytes": 2788,
+      "sha256": "0882aa78d4d15c5d69e4fb24a5752c1d73eba282ea8fb31b7baaf0e74de7b562"
+    },
+    "har_accel/model.py": {
+      "bytes": 2729,
+      "sha256": "61610ef00a8a1e375b150cf218466e5c9b231f4b4ed70770b981613851381042"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "E12",
+  "title": "引用和许可边界",
+  "claims": {
+    "project_license": "no independent project license found in retained sources; do not grant a new license"
+  },
+  "scope": "数据原README及非商业条款保留；门户实际许可字段由队长核对。",
+  "source_hashes": [
+    {
+      "sha256": "eaee53f45825f349681a1a1b92a997a0082648f9b5bf93ddb3290caeede4b3a8",
+      "bytes": 6304,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/inputs/UCI-HAR-original-README.txt"
+    },
+    {
+      "sha256": "c7d327af5bd31ebe62296e04dd478d5cebe1d05ddbff5f38caae8ea3d39ad471",
+      "bytes": 907,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/notices-review.json"
+    }
+  ]
+}

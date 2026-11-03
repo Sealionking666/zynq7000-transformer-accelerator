@@ -1,0 +1,46 @@
+{
+  "id": "E08",
+  "title": "生命周期",
+  "claims": {
+    "cases": [
+      {
+        "input_byte_offset": 0,
+        "early_rejections": 57,
+        "normal_calls": 2
+      },
+      {
+        "input_byte_offset": 4,
+        "early_rejections": 62,
+        "normal_calls": 4
+      },
+      {
+        "input_byte_offset": 8,
+        "early_rejections": 60,
+        "normal_calls": 6
+      },
+      {
+        "input_byte_offset": 12,
+        "early_rejections": 63,
+        "normal_calls": 8
+      }
+    ],
+    "software_timeouts": 4,
+    "drains": 4,
+    "normal_calls": 8,
+    "early_rejections": 242,
+    "late_published": 0
+  },
+  "scope": "Exact fusion bit/ELF, four input offsets0/4/8/12, software timeout with natural hardware completion/drain, no late output and subsequent valid calls. Does not inject stuck AXI/BRESP/reset/electrical faults or prove physical recovery/owner signoff.",
+  "source_hashes": [
+    {
+      "sha256": "061a65eb287639ff925c62c8a347b1b0df1bc26f04785b4727c47d046caabefa",
+      "bytes": 3049,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/06/061a65eb287639ff925c62c8a347b1b0df1bc26f04785b4727c47d046caabefa"
+    },
+    {
+      "sha256": "c7e8dd9c118583f59fdbd1f45a814063bc170f7a9f7ed3c024d16a3fc25064ec",
+      "bytes": 608,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/c7/c7e8dd9c118583f59fdbd1f45a814063bc170f7a9f7ed3c024d16a3fc25064ec"
+    }
+  ]
+}

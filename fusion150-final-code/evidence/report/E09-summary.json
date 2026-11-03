@@ -1,0 +1,23 @@
+{
+  "id": "E09",
+  "title": "21条原Warning负责人确认",
+  "claims": {
+    "DPOP-1": 9,
+    "DPOP-2": 12,
+    "disposition": "owner_confirmed_retain_original_warning",
+    "formal_standard_promotion": false
+  },
+  "scope": "队长确认仅适用于原部署bit，Warning等级未降低；新复建/packed不继承处置。",
+  "source_hashes": [
+    {
+      "sha256": "7385563fb544fe8b8943f5d18706ae1c89a1f19cc32504f856220ff73acf3f02",
+      "bytes": 30224,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/warning-disposition-confirmed.md"
+    },
+    {
+      "sha256": "5ba44d10933271b0ea799dee933361cddf1498fde8a4e865c64efc495265aa6f",
+      "bytes": 884,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/warning-owner-confirmation.json"
+    }
+  ]
+}

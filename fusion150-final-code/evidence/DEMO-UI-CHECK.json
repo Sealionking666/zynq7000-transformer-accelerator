@@ -1,0 +1,23 @@
+{
+  "schema": "fusion150-demo-ui-code-review/1",
+  "date": "2026-11-02",
+  "scope": "Local UI integration, original deployment unchanged",
+  "acceptance": "demo-ui/evidence/acceptance.json",
+  "offline_tests": 14,
+  "new_board_runs": [
+    "validation",
+    "benchmark"
+  ],
+  "new_EDA": false,
+  "new_training": false,
+  "release_replacement": false,
+  "protected_model_hardware_software_release_and_tools": 828,
+  "protected_unchanged": true,
+  "old_build_checks": "DELIVERY-CHECK.json and SUBMISSION-REVIEW.json retain their original scope",
+  "remaining_live_tests": [
+    "Mid-run stop capture",
+    "USB or power loss",
+    "Second computer deployment"
+  ],
+  "previous_manifest_sha256": "ddedcf4c836d2c8ab9fc059e6c96d487e47b0128c313ffe21a32a70636df0cda"
+}

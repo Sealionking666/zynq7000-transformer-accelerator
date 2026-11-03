@@ -1,0 +1,95 @@
+{
+  "recorded": "2026-11-02T21:32:10+08:00",
+  "files": [
+    {
+      "path": "capture/application.elf",
+      "bytes": 273568,
+      "sha256": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc"
+    },
+    {
+      "path": "capture/authorization.json",
+      "bytes": 438,
+      "sha256": "f8b68f341a2b62027ccdd3fbfca98eb9083fadfe3b994e471cb9757c91ff5e7c"
+    },
+    {
+      "path": "capture/download.log",
+      "bytes": 439,
+      "sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f"
+    },
+    {
+      "path": "capture/download.tcl",
+      "bytes": 1330,
+      "sha256": "3a19f4416c9636e820b7318afe429cbe9951758b28ec72f6ed50c9f1dc372cc1"
+    },
+    {
+      "path": "capture/hardware.bit",
+      "bytes": 4045682,
+      "sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2"
+    },
+    {
+      "path": "capture/ps7_init.tcl",
+      "bytes": 26573,
+      "sha256": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020"
+    },
+    {
+      "path": "capture/result.json",
+      "bytes": 328,
+      "sha256": "049f81371251417ca4252172c8fad2ea013628e8cfb78bc8b4e6f52ecd9318a3"
+    },
+    {
+      "path": "capture/uart.bin",
+      "bytes": 7133,
+      "sha256": "d1b3a12d61cac83b9ce28c00d3c3732324912a3364c030c01d26a747cbe23ef9"
+    },
+    {
+      "path": "collector.command.json",
+      "bytes": 1094,
+      "sha256": "497541794ea37a5296506969506e98f928e9ba68adf6d2c61c6ff12353d13a10"
+    },
+    {
+      "path": "collector.log",
+      "bytes": 328,
+      "sha256": "049f81371251417ca4252172c8fad2ea013628e8cfb78bc8b4e6f52ecd9318a3"
+    },
+    {
+      "path": "launch.command.json",
+      "bytes": 558,
+      "sha256": "8d556fe66db493461fe5240d8bdc1e27a9d26b88e81748a0bedf63eae9597d43"
+    },
+    {
+      "path": "preflight/review.json",
+      "bytes": 1307,
+      "sha256": "6724155a65d540f3fa984c5fd4d6e233d20b9a95fdcfe73354b193ce38524d0f"
+    },
+    {
+      "path": "preflight.command.json",
+      "bytes": 706,
+      "sha256": "fd949f89025dcd74a731b22f72917ce67146d6767d6383db0a5d3d398acea859"
+    },
+    {
+      "path": "preflight.log",
+      "bytes": 1307,
+      "sha256": "6724155a65d540f3fa984c5fd4d6e233d20b9a95fdcfe73354b193ce38524d0f"
+    },
+    {
+      "path": "request.json",
+      "bytes": 542,
+      "sha256": "a6da6e9dccc32cb56e8fdca5ee9f5762fb025e227778e50ae1901e2edd65a3ee"
+    },
+    {
+      "path": "review.json",
+      "bytes": 1004,
+      "sha256": "3768d2c2ff61caba3e34a5d5aef68166556506fb3282c8213f93a11c1f518c09"
+    },
+    {
+      "path": "state.json",
+      "bytes": 572,
+      "sha256": "e5eb05efe818451c67f0e74ad0590b12f968c0c13e14e6371c9dc274891b9237"
+    },
+    {
+      "path": "worker.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

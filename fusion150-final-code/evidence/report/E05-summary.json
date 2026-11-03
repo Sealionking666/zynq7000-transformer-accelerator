@@ -1,0 +1,87 @@
+{
+  "id": "E05",
+  "title": "同频H-bank配对性能",
+  "claims": {
+    "promote": true,
+    "baseline_median_ms": 0.042233998775214034,
+    "candidate_median_ms": 0.04067099882054104,
+    "reduction": 0.03700809774115632,
+    "threshold": 0.02,
+    "pair_reductions": [
+      0.03649479407270528,
+      0.03700809774115632,
+      0.037607869597642174
+    ],
+    "pair_count": 3,
+    "pairs": [
+      {
+        "baseline_ms": 0.04221149877586654,
+        "candidate_ms": 0.04067099882054104
+      },
+      {
+        "baseline_ms": 0.042233998775214034,
+        "candidate_ms": 0.04067099882054104
+      },
+      {
+        "baseline_ms": 0.04223849877508354,
+        "candidate_ms": 0.04064999882115003
+      }
+    ],
+    "all_pairs_improved": true,
+    "baseline_relative_range": 0.0006392953544537709,
+    "decision": "improved"
+  },
+  "scope": "AB/BA/AB，双方先1796全验；每次6预热排除/60计时。内存Q16到完整logits，含生产copy/guard/poison/cache/control，排除下载及离线转换。3.7008098%是相对同频H-bank，生成AXI ID不同，不能孤立归因为单一融合优化或解释成ARM提速。",
+  "source_hashes": [
+    {
+      "sha256": "6f73e60d85c809f9acba8ab13efa87c06e909da46fee904d13813c08d734e95d",
+      "bytes": 20609,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/6f/6f73e60d85c809f9acba8ab13efa87c06e909da46fee904d13813c08d734e95d"
+    },
+    {
+      "sha256": "d581d9402daeb2a3d03f8c9e3f7d222bd85d9bb05c2013afe01a9c3306eacc9a",
+      "bytes": 80031,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/d5/d581d9402daeb2a3d03f8c9e3f7d222bd85d9bb05c2013afe01a9c3306eacc9a"
+    },
+    {
+      "sha256": "811d7660c01db5c2a6ab0aea6f680127be29184e67d94b037b2f048dd863367a",
+      "bytes": 668,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/81/811d7660c01db5c2a6ab0aea6f680127be29184e67d94b037b2f048dd863367a"
+    },
+    {
+      "sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018",
+      "bytes": 668,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/db/dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018"
+    },
+    {
+      "sha256": "40b3e7337119ecafb665084679d3f143351bd0425da5fcf1d95649cfc0817895",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/40/40b3e7337119ecafb665084679d3f143351bd0425da5fcf1d95649cfc0817895"
+    },
+    {
+      "sha256": "8e635a7bc9bd10489e22a9c65742560229d9d857f4326c5dd051b27c5d7e8fa6",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/8e/8e635a7bc9bd10489e22a9c65742560229d9d857f4326c5dd051b27c5d7e8fa6"
+    },
+    {
+      "sha256": "15056345372d6aab629488779ff531969afde5d8f40d1e8c3a4e30a85581adf7",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/15/15056345372d6aab629488779ff531969afde5d8f40d1e8c3a4e30a85581adf7"
+    },
+    {
+      "sha256": "fb40b6d1e4594edd6cb42f1f032d742e341cefe187c5eaa19f0b39461d1696fe",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/fb/fb40b6d1e4594edd6cb42f1f032d742e341cefe187c5eaa19f0b39461d1696fe"
+    },
+    {
+      "sha256": "22a7e1477ee0d705bbc42f98a4ccdda44f556c491f28cc43b75e31ebb0238232",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/22/22a7e1477ee0d705bbc42f98a4ccdda44f556c491f28cc43b75e31ebb0238232"
+    },
+    {
+      "sha256": "4460378ffba6a7e70c7923046b3d11d8ea8c7c889de3f58290ada7f44898343e",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/archive/objects/44/4460378ffba6a7e70c7923046b3d11d8ea8c7c889de3f58290ada7f44898343e"
+    }
+  ]
+}

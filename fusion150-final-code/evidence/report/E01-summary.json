@@ -1,0 +1,68 @@
+{
+  "id": "E01",
+  "title": "正式部署版本",
+  "claims": {
+    "model_commit": "4869aaa2496f3e3318ae9ebfb4eb200d065f5a09",
+    "sources": {
+      "kernel": "f4caf9b2597e07cb827b8b864cf9d42a16261cdf",
+      "soc": "b1b8861b9718bf611935df91ad221ca96aa3942f",
+      "firmware": "5962f58f932aa88957e5d691d494897ed44d4e8a",
+      "stress": "1954b4cfdf418b432cfd376dc3eadb4bb287f25b",
+      "controller": "d7567770434e26d55936be90595a1923172a748e"
+    },
+    "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+    "xsa_sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+    "master_ids": {
+      "m_axi_gmem_in": "2",
+      "m_axi_gmem_out": "1"
+    }
+  },
+  "scope": "原Q16融合150MHz、JTAG、预置输入；candidate.json的pending为早期快照，完成状态以final-acceptance为准。",
+  "source_hashes": [
+    {
+      "sha256": "52e4b6dcd94707c4ab914d760297d320396a625c149870d3032ce5e11fa7ec50",
+      "bytes": 4783,
+      "project_relative_source": "交付/fusion150-rc1_20261028/candidate.json"
+    },
+    {
+      "sha256": "0798cc9f80e67d50500b4f1061373d9fa6c0aa3611da70c56d2f5deb03581e30",
+      "bytes": 2349,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/final-acceptance.json"
+    },
+    {
+      "sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+      "bytes": 4045682,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/hardware.bit"
+    },
+    {
+      "sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+      "bytes": 1662401,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/hardware.xsa"
+    },
+    {
+      "sha256": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020",
+      "bytes": 26573,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/ps7_init.tcl"
+    },
+    {
+      "sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d",
+      "bytes": 8562476,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/validation.elf"
+    },
+    {
+      "sha256": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc",
+      "bytes": 273568,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/benchmark.elf"
+    },
+    {
+      "sha256": "684a0d27f5b3478aa6c1e1e93647a920c788cd9b4111c48e4cd22a08c72a5963",
+      "bytes": 8571592,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/lifecycle.elf"
+    },
+    {
+      "sha256": "3abc867bc498bd167c2c009a1e3f52ccaec0e782c5cacddcfadcc202c7b14cee",
+      "bytes": 8563672,
+      "project_relative_source": "交付/fusion150-rc1_20261028/runtime/stress6000.elf"
+    }
+  ]
+}

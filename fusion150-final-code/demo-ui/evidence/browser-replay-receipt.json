@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-02T13:30:28.509Z",
+  "actual_browser": "Microsoft Edge headless / Playwright",
+  "results": [
+    {
+      "id": "validation",
+      "title": "融合150 · Transformer操作与展示",
+      "banner": "历史日志回放 · 2026-10-28归档（UART无墙钟日期） · 不是本次板测",
+      "numerical": "数值验证：固件报告数值通过；独立核对汇总通过",
+      "latency": "未提供",
+      "accuracy": "1449/1796 · 80.68%",
+      "job": "1bdfbbb0828f4339bd9aec9e4b5b99f1",
+      "overflow": false
+    },
+    {
+      "id": "benchmark",
+      "title": "融合150 · Transformer操作与展示",
+      "banner": "历史日志回放 · 2026-10-28归档（UART无墙钟日期） · 不是本次板测",
+      "numerical": "数值验证：固件报告数值通过；独立计时核验通过",
+      "latency": "40.671 μs",
+      "accuracy": "未提供",
+      "job": "25841e6b354a4235b441b815fc5496e9",
+      "overflow": false
+    },
+    {
+      "id": "official",
+      "title": "融合150 · Transformer操作与展示",
+      "banner": "历史日志回放 · 2026-10-29实体板记录 · 不是本次板测",
+      "numerical": "数值验证：独立逐logit验证通过",
+      "latency": "未提供",
+      "accuracy": "2472/2947 · 83.88%",
+      "job": "286eabd0bec34718ae6357f90650ae5c",
+      "overflow": false
+    }
+  ],
+  "javascript_errors": [],
+  "refresh_kept_task": true,
+  "widths_checked": [
+    1440,
+    1366,
+    720
+  ],
+  "screenshots_are_actual_rendered_software": true,
+  "not_new_board_runs": true
+}

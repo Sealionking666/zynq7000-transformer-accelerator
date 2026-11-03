@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02T13:36:47.042Z",
+  "screenshots": [
+    {
+      "file": "02_历史回放_validation_实际软件.png",
+      "job": "1bdfbbb0828f4339bd9aec9e4b5b99f1",
+      "mode": "replay",
+      "purpose": "validation",
+      "sha256": "a156821302ee1a34514db49ab78332541bc43db8510b77ec3477a97cea0b7c32",
+      "actual_browser_screenshot": true
+    },
+    {
+      "file": "02_历史回放_benchmark_实际软件.png",
+      "job": "25841e6b354a4235b441b815fc5496e9",
+      "mode": "replay",
+      "purpose": "benchmark",
+      "sha256": "a8a340eeea433baa2e7e300aecba610ca5158ac6a3da8fdb80ee3a23c381df71",
+      "actual_browser_screenshot": true
+    },
+    {
+      "file": "02_历史回放_official_实际软件.png",
+      "job": "286eabd0bec34718ae6357f90650ae5c",
+      "mode": "replay",
+      "purpose": "official",
+      "sha256": "216de8e40dcde405e5381525be1e21ccd2d48f190c78797822afa76b76af78ef",
+      "actual_browser_screenshot": true
+    },
+    {
+      "file": "04_本次实板_validation_实际软件.png",
+      "job": "4dd633db370d4c4a8e211f863053746f",
+      "mode": "live",
+      "purpose": "validation",
+      "sha256": "bf1b238d011ed729297a83bd72cbfc6b455420c6389c7d63ae3a3280675016b2",
+      "actual_browser_screenshot": true
+    },
+    {
+      "file": "04_本次实板_benchmark_实际软件.png",
+      "job": "898c63d174c14515924ad6ac8dfb5ed3",
+      "mode": "live",
+      "purpose": "benchmark",
+      "sha256": "db4f7afcb4f78123b2365d3e12d5341ed55a7e620b873c35d04e73df4f674345",
+      "actual_browser_screenshot": true
+    }
+  ],
+  "javascript_errors": [],
+  "no_board_operations_in_this_capture": true
+}

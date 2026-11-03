@@ -1,0 +1,8 @@
+{
+  "status": "captured_unvalidated",
+  "purpose": "benchmark",
+  "scope": "raw capture; requires independent review",
+  "raw_uart_sha256": "d1b3a12d61cac83b9ce28c00d3c3732324912a3364c030c01d26a747cbe23ef9",
+  "download_log_sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f",
+  "exit_code": 0
+}

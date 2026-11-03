@@ -1,0 +1,26 @@
+[
+  {
+    "id": "validation",
+    "purpose": "validation",
+    "path": "evidence/report/E05-raw-04-uart.txt",
+    "record_date": "2026-10-28归档（UART无墙钟日期）",
+    "label": "开发集1796条 · 历史验证",
+    "sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018"
+  },
+  {
+    "id": "benchmark",
+    "purpose": "benchmark",
+    "path": "evidence/report/E05-raw-06-uart.txt",
+    "record_date": "2026-10-28归档（UART无墙钟日期）",
+    "label": "正式配对第1次融合侧 · 历史基准",
+    "sha256": "8e635a7bc9bd10489e22a9c65742560229d9d857f4326c5dd051b27c5d7e8fa6"
+  },
+  {
+    "id": "official",
+    "purpose": "official",
+    "path": "evidence/official-uart.bin",
+    "record_date": "2026-10-29实体板记录",
+    "label": "官方test 2947条 · 历史验证",
+    "sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c"
+  }
+]

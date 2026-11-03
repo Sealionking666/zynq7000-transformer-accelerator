@@ -1,0 +1,13 @@
+{
+  "schema": "final-code-current-operator-confirmation/1",
+  "recorded": 1793626291.4317,
+  "board": "AX7Z020B",
+  "powered": true,
+  "boot_mode": "JTAG",
+  "port": "COM5",
+  "exclusive": true,
+  "volatile_PL_DDR_only": true,
+  "purpose": "validation",
+  "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "elf_sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d"
+}

@@ -1,0 +1,537 @@
+{
+  "schema": "fusion150-cold-cycles-review/1",
+  "status": "three_power_events_and_JTAG_validations_verified",
+  "cycles": [
+    {
+      "cycle": 1,
+      "human_reply": "第1次已真实断电并重新上电，仍为JTAG/COM5",
+      "human_confirmation_sha256": "d2fdb6db923dad2dfc711f9ceffb2955cd0c1da94d3c18004071486c203acf58",
+      "result_sha256": "9e52e02dec61d924575345a671cc888a42abeeec949dc9c326c2bbda1a06cc54",
+      "uart_sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018",
+      "metrics": {
+        "profile": "fused-net-v1",
+        "validation_samples": 1796,
+        "logit_elements": 10776,
+        "raw32_calls": 1796,
+        "correct": 1449,
+        "checksum": "bd0b22ad",
+        "scope": "External UART claim; per-logit comparison code must also be reviewed"
+      }
+    },
+    {
+      "cycle": 2,
+      "human_reply": "第2次断电重上电已完成，仍为JTAG/COM5",
+      "human_confirmation_sha256": "ab05d51de48a2fc8a868a181def9abd1926ab8edf7bcc2bd9694e8d083dae9b1",
+      "result_sha256": "ff5ed1807d965b864a74fa03e122aee61006e5adb03063c8759efb1d48acc4ce",
+      "uart_sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018",
+      "metrics": {
+        "profile": "fused-net-v1",
+        "validation_samples": 1796,
+        "logit_elements": 10776,
+        "raw32_calls": 1796,
+        "correct": 1449,
+        "checksum": "bd0b22ad",
+        "scope": "External UART claim; per-logit comparison code must also be reviewed"
+      }
+    },
+    {
+      "cycle": 3,
+      "human_reply": "第3次真实断电重上电已完成，仍为JTAG/COM5",
+      "human_confirmation_sha256": "b06721642efedd88b9780be90df3fc69fb944e2db2e92815d42c82f3dc5fa933",
+      "result_sha256": "28f26d38a83e6ad1b3cde4773a6d0905fdddfbd90184493109d7b8c7f284b351",
+      "uart_sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018",
+      "metrics": {
+        "profile": "fused-net-v1",
+        "validation_samples": 1796,
+        "logit_elements": 10776,
+        "raw32_calls": 1796,
+        "correct": 1449,
+        "checksum": "bd0b22ad",
+        "scope": "External UART claim; per-logit comparison code must also be reviewed"
+      }
+    }
+  ],
+  "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "validation_elf_sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d",
+  "demo_result_sha256": "68c2e15b5fda2efc5806b637d198bac359f5761f6b70d1dc36e7c74708cc04b8",
+  "demo_uart_sha256": "23d195d6bda7a6281acff05d833799f4015d4ca4da04ec6027086b71ef83667b",
+  "demo_metrics": {
+    "profile": "fused-net-v1",
+    "scope": "UART text consistency only",
+    "timer_hz": 333333343,
+    "measured_inferences": 60,
+    "warmup_inferences": 6,
+    "calls_per_inference": 1,
+    "pspl_median_ms": 0.04063949882145453,
+    "cpu_median_ms": 2.927188415111536,
+    "pspl_min_ms": 0.03971099884838103,
+    "pspl_max_ms": 0.04098299881149303,
+    "rows": [
+      {
+        "repeat": 0,
+        "sample": 0,
+        "warmup": 1,
+        "cpu_ticks": 986058,
+        "pspl_ticks": 13972
+      },
+      {
+        "repeat": 0,
+        "sample": 1,
+        "warmup": 1,
+        "cpu_ticks": 980175,
+        "pspl_ticks": 13591
+      },
+      {
+        "repeat": 0,
+        "sample": 2,
+        "warmup": 1,
+        "cpu_ticks": 992042,
+        "pspl_ticks": 13553
+      },
+      {
+        "repeat": 0,
+        "sample": 3,
+        "warmup": 1,
+        "cpu_ticks": 976670,
+        "pspl_ticks": 13517
+      },
+      {
+        "repeat": 0,
+        "sample": 4,
+        "warmup": 1,
+        "cpu_ticks": 951346,
+        "pspl_ticks": 13342
+      },
+      {
+        "repeat": 0,
+        "sample": 5,
+        "warmup": 1,
+        "cpu_ticks": 969927,
+        "pspl_ticks": 13448
+      },
+      {
+        "repeat": 1,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 976041,
+        "pspl_ticks": 13543
+      },
+      {
+        "repeat": 1,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 974250,
+        "pspl_ticks": 13626
+      },
+      {
+        "repeat": 1,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 994096,
+        "pspl_ticks": 13605
+      },
+      {
+        "repeat": 1,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 975819,
+        "pspl_ticks": 13574
+      },
+      {
+        "repeat": 1,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 951096,
+        "pspl_ticks": 13459
+      },
+      {
+        "repeat": 1,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 969807,
+        "pspl_ticks": 13499
+      },
+      {
+        "repeat": 2,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 978806,
+        "pspl_ticks": 13633
+      },
+      {
+        "repeat": 2,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 977710,
+        "pspl_ticks": 13578
+      },
+      {
+        "repeat": 2,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 991880,
+        "pspl_ticks": 13575
+      },
+      {
+        "repeat": 2,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 971201,
+        "pspl_ticks": 13459
+      },
+      {
+        "repeat": 2,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 948008,
+        "pspl_ticks": 13387
+      },
+      {
+        "repeat": 2,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 969834,
+        "pspl_ticks": 13584
+      },
+      {
+        "repeat": 3,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 976622,
+        "pspl_ticks": 13550
+      },
+      {
+        "repeat": 3,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 974988,
+        "pspl_ticks": 13616
+      },
+      {
+        "repeat": 3,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 994225,
+        "pspl_ticks": 13661
+      },
+      {
+        "repeat": 3,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 972486,
+        "pspl_ticks": 13530
+      },
+      {
+        "repeat": 3,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 948545,
+        "pspl_ticks": 13364
+      },
+      {
+        "repeat": 3,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 967201,
+        "pspl_ticks": 13531
+      },
+      {
+        "repeat": 4,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 971188,
+        "pspl_ticks": 13576
+      },
+      {
+        "repeat": 4,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 971914,
+        "pspl_ticks": 13566
+      },
+      {
+        "repeat": 4,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 987907,
+        "pspl_ticks": 13612
+      },
+      {
+        "repeat": 4,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 975640,
+        "pspl_ticks": 13478
+      },
+      {
+        "repeat": 4,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 951097,
+        "pspl_ticks": 13423
+      },
+      {
+        "repeat": 4,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 966093,
+        "pspl_ticks": 13494
+      },
+      {
+        "repeat": 5,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 981320,
+        "pspl_ticks": 13500
+      },
+      {
+        "repeat": 5,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 977009,
+        "pspl_ticks": 13657
+      },
+      {
+        "repeat": 5,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 994938,
+        "pspl_ticks": 13505
+      },
+      {
+        "repeat": 5,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 977906,
+        "pspl_ticks": 13539
+      },
+      {
+        "repeat": 5,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 945414,
+        "pspl_ticks": 13294
+      },
+      {
+        "repeat": 5,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 966526,
+        "pspl_ticks": 13556
+      },
+      {
+        "repeat": 6,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 976849,
+        "pspl_ticks": 13569
+      },
+      {
+        "repeat": 6,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 974947,
+        "pspl_ticks": 13635
+      },
+      {
+        "repeat": 6,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 986516,
+        "pspl_ticks": 13646
+      },
+      {
+        "repeat": 6,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 976771,
+        "pspl_ticks": 13633
+      },
+      {
+        "repeat": 6,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 949972,
+        "pspl_ticks": 13429
+      },
+      {
+        "repeat": 6,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 970146,
+        "pspl_ticks": 13533
+      },
+      {
+        "repeat": 7,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 976934,
+        "pspl_ticks": 13636
+      },
+      {
+        "repeat": 7,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 977806,
+        "pspl_ticks": 13602
+      },
+      {
+        "repeat": 7,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 992145,
+        "pspl_ticks": 13510
+      },
+      {
+        "repeat": 7,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 969056,
+        "pspl_ticks": 13562
+      },
+      {
+        "repeat": 7,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 949570,
+        "pspl_ticks": 13379
+      },
+      {
+        "repeat": 7,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 965519,
+        "pspl_ticks": 13489
+      },
+      {
+        "repeat": 8,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 977685,
+        "pspl_ticks": 13564
+      },
+      {
+        "repeat": 8,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 976825,
+        "pspl_ticks": 13584
+      },
+      {
+        "repeat": 8,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 991886,
+        "pspl_ticks": 13536
+      },
+      {
+        "repeat": 8,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 978694,
+        "pspl_ticks": 13557
+      },
+      {
+        "repeat": 8,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 951936,
+        "pspl_ticks": 13299
+      },
+      {
+        "repeat": 8,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 969086,
+        "pspl_ticks": 13477
+      },
+      {
+        "repeat": 9,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 978751,
+        "pspl_ticks": 13542
+      },
+      {
+        "repeat": 9,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 977231,
+        "pspl_ticks": 13594
+      },
+      {
+        "repeat": 9,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 992602,
+        "pspl_ticks": 13452
+      },
+      {
+        "repeat": 9,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 977129,
+        "pspl_ticks": 13596
+      },
+      {
+        "repeat": 9,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 947528,
+        "pspl_ticks": 13237
+      },
+      {
+        "repeat": 9,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 965392,
+        "pspl_ticks": 13502
+      },
+      {
+        "repeat": 10,
+        "sample": 0,
+        "warmup": 0,
+        "cpu_ticks": 977120,
+        "pspl_ticks": 13573
+      },
+      {
+        "repeat": 10,
+        "sample": 1,
+        "warmup": 0,
+        "cpu_ticks": 974981,
+        "pspl_ticks": 13579
+      },
+      {
+        "repeat": 10,
+        "sample": 2,
+        "warmup": 0,
+        "cpu_ticks": 991857,
+        "pspl_ticks": 13551
+      },
+      {
+        "repeat": 10,
+        "sample": 3,
+        "warmup": 0,
+        "cpu_ticks": 979452,
+        "pspl_ticks": 13456
+      },
+      {
+        "repeat": 10,
+        "sample": 4,
+        "warmup": 0,
+        "cpu_ticks": 951312,
+        "pspl_ticks": 13400
+      },
+      {
+        "repeat": 10,
+        "sample": 5,
+        "warmup": 0,
+        "cpu_ticks": 965877,
+        "pspl_ticks": 13470
+      }
+    ]
+  },
+  "reviewer_sha256": "4f599bf4b6a869243963b2c9712d0d976917ad3d2127f7ed4ae798b8df607737",
+  "formal_acceptance": false,
+  "scope": "Three distinct human-confirmed physical power cycles, each followed by JTAG full development validation; no autonomous boot claim. Demo is one unpaired run, not a new improvement or promotion."
+}

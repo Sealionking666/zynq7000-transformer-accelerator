@@ -1,0 +1,167 @@
+[
+  {
+    "path": "evidence/report/E01-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E01_结论摘要.json",
+    "sha256": "6ae3bde8ffffda896e05d58edad68fd23fc42227c181c740f12071ef254319c2"
+  },
+  {
+    "path": "evidence/report/E02-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E02_结论摘要.json",
+    "sha256": "b288e74780a8ea53b4c038c4f540531f6abc4931778ed54644382ca78361e220"
+  },
+  {
+    "path": "evidence/report/E03-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E03_结论摘要.json",
+    "sha256": "e864ed9728410360cfcaf0a49ce951d49f14711608bfa0da85f260afbdc95d64"
+  },
+  {
+    "path": "evidence/report/E04-raw-02-timing_summary.rpt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E04_原始文件_02_timing_summary.rpt",
+    "sha256": "f5311d149bdc1d37ac51e5f3382e1956bd4facdecb99fee9c788340c104944ec"
+  },
+  {
+    "path": "evidence/report/E04-raw-03-utilization.rpt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E04_原始文件_03_utilization.rpt",
+    "sha256": "96959292e41ef26862868a2ba34c848a018023af7e7d3ed00bf0d67b20c2d22f"
+  },
+  {
+    "path": "evidence/report/E04-raw-04-clocks.rpt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E04_原始文件_04_clocks.rpt",
+    "sha256": "deece8b3ec09bb9612459a30142176115f449cad6f85cdd8d10ec87e8a509adf"
+  },
+  {
+    "path": "evidence/report/E04-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E04_结论摘要.json",
+    "sha256": "f521c2e284b88aaf7fe16e68fea180122d69129f91d3bf7353d6011f7fabf262"
+  },
+  {
+    "path": "evidence/report/E05-raw-03-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_03_uart.txt",
+    "sha256": "811d7660c01db5c2a6ab0aea6f680127be29184e67d94b037b2f048dd863367a"
+  },
+  {
+    "path": "evidence/report/E05-raw-04-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_04_uart.txt",
+    "sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018"
+  },
+  {
+    "path": "evidence/report/E05-raw-05-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_05_uart.txt",
+    "sha256": "40b3e7337119ecafb665084679d3f143351bd0425da5fcf1d95649cfc0817895"
+  },
+  {
+    "path": "evidence/report/E05-raw-06-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_06_uart.txt",
+    "sha256": "8e635a7bc9bd10489e22a9c65742560229d9d857f4326c5dd051b27c5d7e8fa6"
+  },
+  {
+    "path": "evidence/report/E05-raw-07-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_07_uart.txt",
+    "sha256": "15056345372d6aab629488779ff531969afde5d8f40d1e8c3a4e30a85581adf7"
+  },
+  {
+    "path": "evidence/report/E05-raw-08-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_08_uart.txt",
+    "sha256": "fb40b6d1e4594edd6cb42f1f032d742e341cefe187c5eaa19f0b39461d1696fe"
+  },
+  {
+    "path": "evidence/report/E05-raw-09-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_09_uart.txt",
+    "sha256": "22a7e1477ee0d705bbc42f98a4ccdda44f556c491f28cc43b75e31ebb0238232"
+  },
+  {
+    "path": "evidence/report/E05-raw-10-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_原始文件_10_uart.txt",
+    "sha256": "4460378ffba6a7e70c7923046b3d11d8ea8c7c889de3f58290ada7f44898343e"
+  },
+  {
+    "path": "evidence/report/E05-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E05_结论摘要.json",
+    "sha256": "9406abc1021e180da163ed143060601554fc8a540aab0f6ee82e61f21e011777"
+  },
+  {
+    "path": "evidence/report/E06-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E06_结论摘要.json",
+    "sha256": "b66bcc2f3a7c99b7a1aed97175cbd8dca4113acaf90842d0806ab1720c3d60ab"
+  },
+  {
+    "path": "evidence/report/E07-raw-02-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E07_原始文件_02_uart.txt",
+    "sha256": "17c55daa42d7addaee003faf473b7c2fc706b37aa1942f7f68cf016d9fcc72bc"
+  },
+  {
+    "path": "evidence/report/E07-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E07_结论摘要.json",
+    "sha256": "9a23b39d8f439b00a48d97072fa38cec94effddaf80b9e8b8ff108a2d1293d33"
+  },
+  {
+    "path": "evidence/report/E08-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E08_结论摘要.json",
+    "sha256": "82cba8d5ce37c0464fae084871578e7450ed3a56a6e8d54a9a9bf03cc37cd802"
+  },
+  {
+    "path": "evidence/report/E09-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E09_结论摘要.json",
+    "sha256": "be828a171077732044625c85cb5fd0ea834c71a1c1e6f42fbf05f3fbd209d387"
+  },
+  {
+    "path": "evidence/report/E10-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E10_结论摘要.json",
+    "sha256": "4e77adfc187a943bc6e04f2b4b9fd32803ed761f86fef294fe24dc0a5d5ab86f"
+  },
+  {
+    "path": "evidence/report/E11-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E11_结论摘要.json",
+    "sha256": "4a904b8f6c513c2ee3bad2980b16a7ae9a446d8486d1ce7be6c01ec1fce5bb77"
+  },
+  {
+    "path": "evidence/report/E12-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E12_结论摘要.json",
+    "sha256": "4124a5392c2f70d6a02a3caac994c8930ab8e2a76e8824ff711d1c82d2cc53c2"
+  },
+  {
+    "path": "evidence/report/E14-raw-02-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E14_原始文件_02_uart.txt",
+    "sha256": "23d195d6bda7a6281acff05d833799f4015d4ca4da04ec6027086b71ef83667b"
+  },
+  {
+    "path": "evidence/report/E14-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E14_结论摘要.json",
+    "sha256": "5416024d58a6c3ebfbd7176d2ef1e55aef0369e139d439c380ce66b6d937b0f6"
+  },
+  {
+    "path": "evidence/report/E15-raw-03-review.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E15_原始文件_03_review.json",
+    "sha256": "b51c32d4775969fb6db48db9f032b667727520a200486d864dfc0419439eecae"
+  },
+  {
+    "path": "evidence/report/E15-raw-06-uart.txt",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E15_原始文件_06_uart.txt",
+    "sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c"
+  },
+  {
+    "path": "evidence/report/E15-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E15_结论摘要.json",
+    "sha256": "9cd4bda5a5d74dcba46db61d74769dfcfadae9bcaa98dac46be72726abe738f2"
+  },
+  {
+    "path": "evidence/report/E16-summary.json",
+    "source": "最终提交文件/海报PPT队友素材包_20261102/07_证据摘录/E16_结论摘要.json",
+    "sha256": "571686a146eadd304a40ab7966cd44dc3103c51e8b95916e6dcc8e92ddfc2359"
+  },
+  {
+    "path": "evidence/report/cold-cycles-review.json",
+    "source": "交付/fusion150-rc1_20261028/acceptance/cold-cycles-review.json",
+    "sha256": "a6bd25e58b14ae87c355f591f26538833a9748343598ba3af2e7f96e76ddc9b4"
+  },
+  {
+    "path": "evidence/report/long-stress-review.json",
+    "source": "交付/fusion150-rc1_20261028/acceptance/long-stress-review.json",
+    "sha256": "1829b924d3621199fba4d7b181db20e857dbd13c076b0740092dfb9ed0038233"
+  },
+  {
+    "path": "evidence/report/warning-disposition-confirmed.md",
+    "source": "交付/fusion150-rc1_20261028/acceptance/warning-disposition-confirmed.md",
+    "sha256": "7385563fb544fe8b8943f5d18706ae1c89a1f19cc32504f856220ff73acf3f02"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "schema": "fusion150-demo-ui-acceptance/1",
+  "date": "2026-11-02",
+  "timezone": "UTC+8",
+  "status": "offline_and_validation_benchmark_live_verified_with_stated_limits",
+  "offline_tests": 14,
+  "real_log_replays": [
+    "validation 1796 aggregate",
+    "benchmark 66 calls / 60 timed",
+    "official 2947 / 17682 exact"
+  ],
+  "concurrent_http_requests": {
+    "total": 12,
+    "accepted": 1,
+    "rejected_conflict": 11
+  },
+  "live_runs": [
+    {
+      "purpose": "validation",
+      "job_id": "4dd633db370d4c4a8e211f863053746f",
+      "source": "E:\\vivado\\fusion150-demo-ui-runs-20261102\\4dd633db370d4c4a8e211f863053746f",
+      "uart_sha256": "dba8f7c2517cc89526dbcc0547e670a6815550bacb3118ffd8b3b69e3d1a1018",
+      "authorization": null,
+      "observation": {
+        "purpose": "validation",
+        "bytes": 668,
+        "end_line": true,
+        "samples": 1796,
+        "total": 1796,
+        "measured": null,
+        "correct": 1449,
+        "accuracy": 0.8067928730512249,
+        "logits": 10776,
+        "classification": [],
+        "timing": null,
+        "failure": null
+      },
+      "independent_scope": "独立汇总核验（非逐logit）",
+      "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+      "elf_sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d",
+      "original_capture_status": "captured_unvalidated",
+      "capture_exit_code": 0
+    },
+    {
+      "purpose": "benchmark",
+      "job_id": "898c63d174c14515924ad6ac8dfb5ed3",
+      "source": "E:\\vivado\\fusion150-demo-ui-runs-20261102\\898c63d174c14515924ad6ac8dfb5ed3",
+      "uart_sha256": "d1b3a12d61cac83b9ce28c00d3c3732324912a3364c030c01d26a747cbe23ef9",
+      "authorization": null,
+      "observation": {
+        "purpose": "benchmark",
+        "bytes": 7133,
+        "end_line": true,
+        "samples": 66,
+        "total": 66,
+        "measured": 60,
+        "correct": null,
+        "accuracy": null,
+        "logits": null,
+        "classification": [],
+        "timing": {
+          "timer_hz": 333333343,
+          "measured": 60,
+          "pspl_median_us": 40.667998820628036,
+          "cpu_median_us": 2899.5494159130667,
+          "pspl_min_us": 40.004998839855034,
+          "pspl_max_us": 41.006998810797036,
+          "scope": "内存Q16至完整PS/PL logits；含生产复制、guard/poison/cache/control；排除6次预热、下载和UART"
+        },
+        "failure": null
+      },
+      "independent_scope": "独立计时与覆盖核验（非逐logit）",
+      "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+      "elf_sha256": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc",
+      "original_capture_status": "captured_unvalidated",
+      "capture_exit_code": 0
+    }
+  ],
+  "current_operator_statement": "AX7Z020B已供电，SW1=JTAG，串口COM5，板卡/串口独占，授权本轮原release bit/ELF易失PL/DDR下载",
+  "board_authorization_closed_after_these_two_runs": true,
+  "owned_hw_server_closed": true,
+  "not_live_tested": [
+    "Stopping capture in the middle of physical board operation",
+    "USB/power removal and physical failure recovery",
+    "second laptop"
+  ],
+  "no_training_no_EDA_no_model_or_release_replacement": true,
+  "historical_accepted_metrics_unchanged": {
+    "E05_formal_paired_median_us": 40.67099882054104,
+    "E15_official_accuracy": 0.8388191381065491
+  },
+  "board_runtime_outputs_outside_package": "E:\\vivado\\fusion150-demo-ui-runs-20261102",
+  "protected_live_adapter_sources": {
+    "bridge.py": "dd221a6040db05841894a6a9a9360fcbdb14c5ec981b331212d02c062dff8241",
+    "parser.py": "d36cca308c9b9f03b8dcd50bb6a6945c47c170c9cbb0e3e46f146dbb3eedf636",
+    "worker.py": "70e1d8b2d637d6b6037dafa9db4a087072384b45fad97b2bcf30887c574415dc"
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/02_历史回放_benchmark_实际软件.png",
+      "sha256": "a8a340eeea433baa2e7e300aecba610ca5158ac6a3da8fdb80ee3a23c381df71"
+    },
+    {
+      "path": "screenshots/02_历史回放_official_实际软件.png",
+      "sha256": "216de8e40dcde405e5381525be1e21ccd2d48f190c78797822afa76b76af78ef"
+    },
+    {
+      "path": "screenshots/02_历史回放_validation_实际软件.png",
+      "sha256": "a156821302ee1a34514db49ab78332541bc43db8510b77ec3477a97cea0b7c32"
+    },
+    {
+      "path": "screenshots/03_笔记本1366x768_本次实板记录.png",
+      "sha256": "3efb6f5f16806eb2ae5b716613158966ef6befb11777f357c67f0d9acdb2e512"
+    },
+    {
+      "path": "screenshots/04_本次实板_benchmark_实际软件.png",
+      "sha256": "db4f7afcb4f78123b2365d3e12d5341ed55a7e620b873c35d04e73df4f674345"
+    },
+    {
+      "path": "screenshots/04_本次实板_validation_实际软件.png",
+      "sha256": "bf1b238d011ed729297a83bd72cbfc6b455420c6389c7d63ae3a3280675016b2"
+    },
+    {
+      "path": "screenshots/05_图8_本次实板benchmark_1366x950.png",
+      "sha256": "94e17fcc7e9fa9ca17164d1a752735e7f1ae7e2c35a4ef1e8b1e5a33aa6229df"
+    }
+  ]
+}

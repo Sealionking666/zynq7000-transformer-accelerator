@@ -1,0 +1,105 @@
+{
+  "schema": "fusion150-final-firmware-build/1",
+  "status": "passed",
+  "original_bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "original_XSA_sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+  "compiler_sha256": "22e713f79fad250c8c0b887eef65c3446a187f5b1b2a7eb41aab5039aaf8f9ab",
+  "purposes": {
+    "validation": {
+      "status": "passed",
+      "elf_sha256": "d5a39d21be319d07d263a7e7f21e5e533898b9752fd61d35e747947f49e0d95e",
+      "inputs_sha256": {
+        "build_identity.h": "926a94b40b6318d41b4a78b03e7a5340bdce6cb7fbfae7598f4f5a67363e430e",
+        "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+        "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+        "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+        "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+        "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+        "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+        "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+        "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+        "main_zynq.c": "7e8d274349bfbd969822ec8541428dd56fa7c7545ebbf2cd89b1b22dc19ad7e7",
+        "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+      },
+      "not_deployed": true
+    },
+    "benchmark": {
+      "status": "passed",
+      "elf_sha256": "9fdb7b364575a4133b99670de2eac39bd6ff96c20ec7343916cdde735c45ce61",
+      "inputs_sha256": {
+        "build_identity.h": "fce07118ba626a4f0f4b1245b08192e7d050d092b8763be3cbaad1659955bbaa",
+        "har_demo.h": "96e9d44d644eecf0e456ba5bde42b394429e7d4850108c22fc137628c1f2a103",
+        "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+        "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+        "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+        "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+        "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+        "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+        "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+        "main_zynq.c": "7e8d274349bfbd969822ec8541428dd56fa7c7545ebbf2cd89b1b22dc19ad7e7",
+        "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+      },
+      "not_deployed": true
+    },
+    "lifecycle": {
+      "status": "passed",
+      "elf_sha256": "41735a649bc0bffb90c92db65cfa751f507bd2cb91262f5122b6a3f2f3e105e5",
+      "inputs_sha256": {
+        "build_identity.h": "75e44509ad77e352385348d04f7b67ecd4b6f875d98c7960eb80da9165057125",
+        "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+        "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+        "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+        "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+        "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+        "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+        "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+        "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+        "main_zynq.c": "f977cf55da89c01aaffec851812b0e62e50a81a804d87a672779f80a9d07c95b",
+        "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+      },
+      "not_deployed": true
+    },
+    "stress": {
+      "status": "passed",
+      "elf_sha256": "62f47bd88d4c0e1a763ec4d8bb5c367f7054e471a7e9d5ac2b83b3fefdf69c62",
+      "inputs_sha256": {
+        "build_identity.h": "f23d9d46067923486f3553483bfd400de8e67660956d9493b393277721b5a4b0",
+        "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+        "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+        "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+        "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+        "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+        "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+        "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+        "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+        "main_zynq.c": "479dcd58ba26fc6b89674d8f8ddad17ba2ca25967e8299f2e42e63a56295ebd2",
+        "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+      },
+      "not_deployed": true
+    },
+    "official": {
+      "status": "passed",
+      "elf_sha256": "de97efbd4ce7c29f607c353ed231431ea5d45dae2af307726e936a854c21903f",
+      "inputs_sha256": {
+        "build_identity.h": "18c8999f394b8dda7fa84f279b8f432e6c0ee6bfdd6c0b49b5afd5d336920bda",
+        "expected-logits-q16.bin": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+        "har_demo.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+        "har_fixed.c": "1a458e1fe5ccda97d718901cefd4214f08b3bfd045ddc326565f2ab785e60cc0",
+        "har_fixed.h": "8bfc6f0fd3f9c235c81234f36b706e15039d8a34d8596f412e281637f5f5c608",
+        "har_net_lifecycle.h": "81aac1281708b8b892c1f0db9a40b50b9b165a68850251ef73e9a6a77d0afed6",
+        "har_net_pl.c": "32e894ebafcd0a175a37bee474cba9837aaad459bd28858921fe47025370a248",
+        "har_net_pl.h": "5b6f15a40c1cbe75da6073988a6a39484caa7f8da27f9cce08ae036cc9a07ea0",
+        "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+        "input-q16.bin": "c79c2be39c220e021cbc885f8ca72b6f916eed31a439dc2eef9a88b57d49bd67",
+        "labels-i32.bin": "289bf5f6fe126ad992f41dd789abc4070f1f14bef09a3106d86d2000f3963d78",
+        "lscript.ld": "065b1d5f9f8942311ddf14fcc5fb73ee6808cbe61c9ab994e771958973f851d5",
+        "main_zynq.c": "13b3546e1d81db376f1ab18d2e461040c39fdbb4053f785b6bc6337b2824d57d",
+        "official_identity.h": "58163c7dcdb8d483da3cab9f7254fd8cbfe6a81a8e673157f8440032a0e64628",
+        "official_vectors.S": "d51de673b181c7ba3ec7965b76d706bf70fb9e8d5b67aae2253e3f691ecf5c8c",
+        "Xilinx.spec": "d7f2fca3a9e48f9bb07059f5ecc8dd1468ee1ec1b82d361d0592ecdb24d15067"
+      },
+      "not_deployed": true
+    }
+  },
+  "board_actions": false
+}

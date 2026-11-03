@@ -1,0 +1,187 @@
+{
+  "id": "E15",
+  "title": "2947条官方test实体FPGA板全量验证",
+  "claims": {
+    "schema": "fusion150-official-test-board-independent-review/1",
+    "status": "physical_board_all_2947_samples_17682_logits_exact",
+    "scope": "actual original fusion150 FPGA bit, production driver, full official test sequentially; all six raw PL logits per sample independently replayed; no new RTL, latency or sustained-throughput claim",
+    "original_capture_status_preserved": "captured_unvalidated",
+    "metrics": {
+      "samples": 2947,
+      "logits": 17682,
+      "calls": 2947,
+      "correct": 2472,
+      "checksum": "fe0d23fe",
+      "input_checksum": "5bdb007b",
+      "ticks": 12725832994,
+      "timer_hz": 333333343,
+      "device_interval_seconds": 38.17749787485256,
+      "device_interval_scope": "includes per-sample UART output and validation; not inference latency"
+    },
+    "accuracy": 0.8388191381065491,
+    "macro_f1": 0.8372657272274614,
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        429,
+        9,
+        49,
+        8,
+        1,
+        0
+      ],
+      [
+        65,
+        359,
+        47,
+        0,
+        0,
+        0
+      ],
+      [
+        42,
+        15,
+        363,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        383,
+        102,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        90,
+        437,
+        0
+      ],
+      [
+        0,
+        27,
+        9,
+        0,
+        0,
+        501
+      ]
+    ],
+    "comparison": "all 17682 physical-board logits equal archived NumPy/C/HLS-host reference",
+    "source_commit": "25a77db991842e9e44d8130291402d05db1ff040",
+    "original_ps_commit": "5962f58f932aa88957e5d691d494897ed44d4e8a",
+    "kernel_commit": "f4caf9b2597e07cb827b8b864cf9d42a16261cdf",
+    "bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+    "xsa_sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+    "elf_sha256": "4839eadd64e15e15c0c6a44e5d6fd6a4853118e463ed484c0b87199a9aa572cb",
+    "ps_init_sha256": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020",
+    "input_sha256": "c79c2be39c220e021cbc885f8ca72b6f916eed31a439dc2eef9a88b57d49bd67",
+    "oracle_sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+    "build_token": "1d32f8e017d74d2a8c99d205c311ce44",
+    "uart_sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c",
+    "download_log_sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f",
+    "capture_result_sha256": "cde0743a3d36aad9713c8ae9a02f534d93d0418cb7c6e8c32b5e02486d75ad2f",
+    "authorization_sha256": "8d846c3b474f97e717d80cdd679dc34f562e0068001bdca3921985df5939d3d5",
+    "precompile_sha256": "e3c09a336e271eb3ed06e47a0df38c3318935018f011c7c1fd26e409bb455b25",
+    "contract_sha256": "a42ad9292ae2c067789f024f7be5916e2ddb43794b42ba25411c613d0e6c7445",
+    "reviewer_sha256": "8d447f3b21a579f74db51ad9abeb0ce0ce0aefc3e0109fafe48aa26be3023c6c",
+    "reader_parser_sha256": "4df1eec97c9b30b92b7e92d3d109e516a12254eb48f5f9a00e4e550461fc3164",
+    "reader_commit": "ed74b3c74f49810ce55c1a1c3e37d516a9744e77",
+    "reader_format_scope": "splitlines for Xilinx CR/CRLF plus case-insensitive hex values; unmodified raw UART; same strict per-sample/per-logit rules",
+    "board_logits_sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+    "board_predictions_sha256": "d7071dc7fa6b246ab70994db9c30bcba400963f9dddc67c0dcbb171c5b1e004f",
+    "model_updated": false,
+    "formal_standard_promotion": false
+  },
+  "scope": "2026-10-29 actual board capture, original fusion150 bit and production PS driver, new dedicated validation ELF; all per-sample logits replayed; no new RTL or latency claim",
+  "source_hashes": [
+    {
+      "sha256": "b51c32d4775969fb6db48db9f032b667727520a200486d864dfc0419439eecae",
+      "bytes": 3464,
+      "project_relative_source": "交付/fusion150-official-board_20261029/summary.json"
+    },
+    {
+      "sha256": "012263151a807f8cb7369061db74ff646a8b01b1e627c3173b37b71752e22345",
+      "bytes": 4363,
+      "project_relative_source": "交付/fusion150-official-board_20261029/README.md"
+    },
+    {
+      "sha256": "b51c32d4775969fb6db48db9f032b667727520a200486d864dfc0419439eecae",
+      "bytes": 3464,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/independent-review01/review.json"
+    },
+    {
+      "sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+      "bytes": 70728,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/independent-review01/board-logits-q16.bin"
+    },
+    {
+      "sha256": "d7071dc7fa6b246ab70994db9c30bcba400963f9dddc67c0dcbb171c5b1e004f",
+      "bytes": 160210,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/independent-review01/board-predictions.csv"
+    },
+    {
+      "sha256": "bd8056e506b0abcbae9de41715e1c0648457cf18af165dce933cb4eec8fd757c",
+      "bytes": 440343,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/capture01/uart.bin"
+    },
+    {
+      "sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f",
+      "bytes": 439,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/capture01/download.log"
+    },
+    {
+      "sha256": "cde0743a3d36aad9713c8ae9a02f534d93d0418cb7c6e8c32b5e02486d75ad2f",
+      "bytes": 2309,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/capture01/result.json"
+    },
+    {
+      "sha256": "4839eadd64e15e15c0c6a44e5d6fd6a4853118e463ed484c0b87199a9aa572cb",
+      "bytes": 13904004,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/capture01/application.elf"
+    },
+    {
+      "sha256": "a42ad9292ae2c067789f024f7be5916e2ddb43794b42ba25411c613d0e6c7445",
+      "bytes": 51067,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/build01/contract.json"
+    },
+    {
+      "sha256": "e3c09a336e271eb3ed06e47a0df38c3318935018f011c7c1fd26e409bb455b25",
+      "bytes": 105316,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/build01/precompile-inputs.json"
+    },
+    {
+      "sha256": "f2ec4ec6ea60af27c34f213a73ea693b67897974a27888aee0b438168c14995a",
+      "bytes": 1131,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/build01/elf-review.json"
+    },
+    {
+      "sha256": "ca5ef8a58f6aec85506f4a4a08573819b7f1cf58d6a731f2eb7cde31064dad93",
+      "bytes": 584,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/session01/human-confirmation.json"
+    },
+    {
+      "sha256": "8d846c3b474f97e717d80cdd679dc34f562e0068001bdca3921985df5939d3d5",
+      "bytes": 10420,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/session01/authorization.json"
+    },
+    {
+      "sha256": "2342a8e17db3052fcbacaab9f2bb41cdf0977dcd1694616c261c39707ae6f882",
+      "bytes": 398,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/owned-server-cleanup.json"
+    },
+    {
+      "sha256": "bba16fa03915a70d04166fbfeb11200aec7fe2671f581aebe47d16eb2f453697",
+      "bytes": 300,
+      "project_relative_source": "交付/fusion150-official-board_20261029/evidence/offline-reader-v2-tests01.json"
+    },
+    {
+      "sha256": "5435c28ec325e57f522b4e608353dc3716e179eaf9949e3aa5057162cc862224",
+      "bytes": 524,
+      "project_relative_source": "交付/fusion150-official-board_20261029/sources/commits.json"
+    }
+  ]
+}

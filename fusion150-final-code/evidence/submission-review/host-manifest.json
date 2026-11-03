@@ -1,0 +1,36 @@
+{
+  "schema": "fusion150-portable-rebuild/1",
+  "stage": "host",
+  "status": "passed",
+  "started": 1793623454.5812201,
+  "build_token": "dedb1639d1674822839561d82d738c63",
+  "builder_sha256": "1d2b29b347b2c7b0237b27229698bd28742c9439266bd63395cda4b07f411a2d",
+  "original_sources": {
+    "kernel": {
+      "commit": "f4caf9b2597e07cb827b8b864cf9d42a16261cdf"
+    },
+    "soc": {
+      "commit": "b1b8861b9718bf611935df91ad221ca96aa3942f"
+    },
+    "firmware": {
+      "commit": "5962f58f932aa88957e5d691d494897ed44d4e8a"
+    }
+  },
+  "package_manifest_sha256": "84a5c9abb1d66838df66cf96b056d56e56e77d99e8de9340d0c419503fbd1653",
+  "candidate_sha256": "d6e5b583a56e9c470821347a2ad1e04126dcf95e6022b1bc27a89d17d0ce3d3b",
+  "formal_acceptance": false,
+  "board_actions": false,
+  "budget": "Completion goal; per-call watchdogs only; no old cutoff reused",
+  "source_sha256": {
+    "demo_bench.h": "96e9d44d644eecf0e456ba5bde42b394429e7d4850108c22fc137628c1f2a103",
+    "demo_validation.h": "bab1d729bd3f165da830c340af3cb7535a258e1a1d71271d1b74f020bae89337",
+    "har_exp_local.h": "16516a9611ee0a291a6c9d6741e3a86cb34baf18ac2e772a07224a5370c79cf6",
+    "har_net.cpp": "da73dc4416a55e3b49ecaa0c56655738f4eb15db19732e7c8fbf3e7000f5791c",
+    "har_net.h": "e5167ec282617fc61f978c6d933e582af7897a3c152906d48db10428c0c41f72",
+    "har_parameters.h": "7ee9a096b21c28ca9fef522caf46f23a7b33b503ce0120de0476bb5e3c24bb63",
+    "har_wflat_body.inc": "ef53a38136c9f035a4e38d0d64f32a577ef4481daff9a60d4951fee3baf4a3d2",
+    "har_wflat_defs.h": "bdcdc8812bced050affda2a06d4a0b987bb05b9bb65423479039a62bb498c37f",
+    "tb_har_net.cpp": "5541f1f3cf896a6f6aebb49d45b1c05ad772a808b2fe5fdac45899820b296553"
+  },
+  "finished": 1793623464.8765807
+}

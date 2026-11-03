@@ -1,0 +1,25 @@
+{
+  "model": "HARTransformer",
+  "input_shape": [
+    128,
+    9
+  ],
+  "patch": 4,
+  "tokens": 32,
+  "width": 16,
+  "heads": 1,
+  "layers": 1,
+  "ff_width": 32,
+  "classes": 6,
+  "position_encoding": "fixed sinusoidal",
+  "rmsnorm_epsilon": 1e-05,
+  "seed": 20260929,
+  "epochs": 20,
+  "batch_size": 128,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "best_epoch": 19,
+  "best_validation_accuracy": 0.8062360801781737,
+  "weights_sha256": "052b295453982942843fbb65b9e51f889a2c4789fc6ff0b3be68a3b16e82c027"
+}

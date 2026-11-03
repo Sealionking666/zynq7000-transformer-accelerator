@@ -1,0 +1,17 @@
+{
+  "mode": "live",
+  "package": "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-final-code",
+  "port": "COM5",
+  "xilinx": "E:\\vivado",
+  "confirmations": {
+    "powered": true,
+    "jtag": true,
+    "exclusive": true,
+    "volatile": true
+  },
+  "confirmed_at": "2026-11-02T21:32:00+08:00",
+  "authorization_scope": "本次任务：原release工件易失PL/DDR下载，不写Flash/SD",
+  "id": "898c63d174c14515924ad6ac8dfb5ed3",
+  "purpose": "benchmark",
+  "created": "2026-11-02T21:32:00+08:00"
+}

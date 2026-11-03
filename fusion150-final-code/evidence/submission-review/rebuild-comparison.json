@@ -1,0 +1,166 @@
+{
+  "schema": "fusion150-submission-rebuild-check/1",
+  "date": "2026-11-02",
+  "firmware_load_comparisons": {
+    "validation": {
+      "status": "passed",
+      "original_elf_sha256": "d6823fc57a4a1b8efa9eee6ef4543e5a7f4e267abb123ade48f87343ab1ed14d",
+      "rebuilt_elf_sha256": "d5a39d21be319d07d263a7e7f21e5e533898b9752fd61d35e747947f49e0d95e",
+      "comparison": "ELF entry, ARM flags and PT_LOAD addresses/sizes/flags/alignment/loaded bytes",
+      "load_content": {
+        "entry": 1048576,
+        "machine": 40,
+        "flags": 83887104,
+        "load_segments": [
+          {
+            "vaddr": 1048576,
+            "paddr": 1048576,
+            "filesz": 8388624,
+            "memsz": 8460704,
+            "flags": 7,
+            "align": 65536,
+            "sha256": "4c71f31631fd022379900ed9a2148859869c916cbb574de395ae9ca948b603e8"
+          }
+        ]
+      },
+      "whole_file_equal": false,
+      "not_deployed": true
+    },
+    "benchmark": {
+      "status": "passed",
+      "original_elf_sha256": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc",
+      "rebuilt_elf_sha256": "9fdb7b364575a4133b99670de2eac39bd6ff96c20ec7343916cdde735c45ce61",
+      "comparison": "ELF entry, ARM flags and PT_LOAD addresses/sizes/flags/alignment/loaded bytes",
+      "load_content": {
+        "entry": 1048576,
+        "machine": 40,
+        "flags": 83887104,
+        "load_segments": [
+          {
+            "vaddr": 1048576,
+            "paddr": 1048576,
+            "filesz": 98320,
+            "memsz": 198816,
+            "flags": 7,
+            "align": 65536,
+            "sha256": "6151d4680e8c6f07d1131c43655361cb5448fa901c58a5789a8e0c62c84cfb7e"
+          }
+        ]
+      },
+      "whole_file_equal": false,
+      "not_deployed": true
+    },
+    "lifecycle": {
+      "status": "passed",
+      "original_elf_sha256": "684a0d27f5b3478aa6c1e1e93647a920c788cd9b4111c48e4cd22a08c72a5963",
+      "rebuilt_elf_sha256": "41735a649bc0bffb90c92db65cfa751f507bd2cb91262f5122b6a3f2f3e105e5",
+      "comparison": "ELF entry, ARM flags and PT_LOAD addresses/sizes/flags/alignment/loaded bytes",
+      "load_content": {
+        "entry": 1048576,
+        "machine": 40,
+        "flags": 83887104,
+        "load_segments": [
+          {
+            "vaddr": 1048576,
+            "paddr": 1048576,
+            "filesz": 8388624,
+            "memsz": 8469600,
+            "flags": 7,
+            "align": 65536,
+            "sha256": "2631fa6f1a23e302e8e3f8a552bb7750e4902a8f1aade2be32607e81fe4861bf"
+          }
+        ]
+      },
+      "whole_file_equal": false,
+      "not_deployed": true
+    },
+    "stress": {
+      "status": "passed",
+      "original_elf_sha256": "fe99b1ca70f059a61b905a8431ad0b92724df0c45a42caa1dc3b08d38c36d067",
+      "rebuilt_elf_sha256": "62f47bd88d4c0e1a763ec4d8bb5c367f7054e471a7e9d5ac2b83b3fefdf69c62",
+      "comparison": "ELF entry, ARM flags and PT_LOAD addresses/sizes/flags/alignment/loaded bytes",
+      "load_content": {
+        "entry": 1048576,
+        "machine": 40,
+        "flags": 83887104,
+        "load_segments": [
+          {
+            "vaddr": 1048576,
+            "paddr": 1048576,
+            "filesz": 8388624,
+            "memsz": 8460704,
+            "flags": 7,
+            "align": 65536,
+            "sha256": "654be5b7ecfd8c7d571c4baea1fbe548718f3ca44ac74407fd4ca09ee34d036d"
+          }
+        ]
+      },
+      "whole_file_equal": false,
+      "not_deployed": true
+    },
+    "official": {
+      "status": "passed",
+      "original_elf_sha256": "4839eadd64e15e15c0c6a44e5d6fd6a4853118e463ed484c0b87199a9aa572cb",
+      "rebuilt_elf_sha256": "de97efbd4ce7c29f607c353ed231431ea5d45dae2af307726e936a854c21903f",
+      "comparison": "ELF entry, ARM flags and PT_LOAD addresses/sizes/flags/alignment/loaded bytes",
+      "load_content": {
+        "entry": 1048576,
+        "machine": 40,
+        "flags": 83887104,
+        "load_segments": [
+          {
+            "vaddr": 1048576,
+            "paddr": 1048576,
+            "filesz": 13729808,
+            "memsz": 13801888,
+            "flags": 7,
+            "align": 65536,
+            "sha256": "5a1e05bfbce7d00e530295f44a83e2687c136bfc0604417cdcabef2aea616cdd"
+          }
+        ]
+      },
+      "whole_file_equal": false,
+      "not_deployed": true
+    }
+  },
+  "staged_inputs": {
+    "count": 59,
+    "status": "unchanged",
+    "previous": "E:\\vivado\\fusion150-final-code-build01\\preflight\\extracted-source-files.json",
+    "sha256": "f7e944a2a28aed6f64c0c9e13e6270558d477f24d1b4ad850493399031392c64"
+  },
+  "copied_records": [
+    {
+      "path": "preflight-manifest.json",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-build01\\preflight\\manifest.json",
+      "sha256": "b07c2ebf4b547f01eb0ff1451ad34b2a161adfb88b9b02144d9fe256db5040e6"
+    },
+    {
+      "path": "staged-inputs.json",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-build01\\preflight\\extracted-source-files.json",
+      "sha256": "f7e944a2a28aed6f64c0c9e13e6270558d477f24d1b4ad850493399031392c64"
+    },
+    {
+      "path": "host-manifest.json",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-build01\\host\\manifest.json",
+      "sha256": "16401d628b1940250cefaa726838ba4b9046a1eb382dbc16934c7d7a0721962c"
+    },
+    {
+      "path": "host-1796.log",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-build01\\host\\host-1796.log",
+      "sha256": "55040b7d29da34ec7d6770bb3ad60978e512d5a5167c108414646b1f6bd44c23"
+    },
+    {
+      "path": "probe-frozen.log",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-build01\\host\\probe-frozen.log",
+      "sha256": "4f8bf80fd0cfc407d7218439d7d1e98d2472f0cd0591304177a860a25be32f99"
+    },
+    {
+      "path": "firmware-result.json",
+      "source": "E:\\vivado\\fusion150-submission-review-20261102-firmware01\\result.json",
+      "sha256": "112c5b53a7ab1ef35d4ad725569819c57371b12eafef657bbf52caa252ef268b"
+    }
+  ],
+  "new_full_EDA": false,
+  "new_board_run": false
+}

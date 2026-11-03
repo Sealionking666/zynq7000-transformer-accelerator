@@ -1,0 +1,18 @@
+{
+  "id": "4dd633db370d4c4a8e211f863053746f",
+  "mode": "live",
+  "purpose": "validation",
+  "created": "2026-11-02T21:31:28+08:00",
+  "status": "completed",
+  "phase": "采集及独立复核完成",
+  "capture_exit_code": 0,
+  "review_status": "passed",
+  "source": null,
+  "port": "COM5",
+  "output": "E:\\vivado\\fusion150-demo-ui-runs-20261102\\4dd633db370d4c4a8e211f863053746f",
+  "worker_pid": 33164,
+  "updated": "2026-11-02T21:31:59+08:00",
+  "capture_status": "采集进程已退出",
+  "error": null,
+  "finished": "2026-11-02T21:31:59+08:00"
+}

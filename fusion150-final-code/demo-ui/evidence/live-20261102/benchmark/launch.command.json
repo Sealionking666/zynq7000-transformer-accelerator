@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "E:\\vivado\\work_rebuild_20261009\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-demo-ui\\worker.py",
+    "E:\\vivado\\fusion150-demo-ui-runs-20261102\\898c63d174c14515924ad6ac8dfb5ed3"
+  ],
+  "cwd": "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-demo-ui",
+  "pid": 42012,
+  "started": "2026-11-02T21:32:00+08:00",
+  "description": "独立任务进程；刷新或关闭网页不会重启或停止"
+}

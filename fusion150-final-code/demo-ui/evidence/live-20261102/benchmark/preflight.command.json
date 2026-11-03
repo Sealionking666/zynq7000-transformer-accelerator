@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "E:\\vivado\\work_rebuild_20261009\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-final-code\\tools\\verify.py",
+    "--package",
+    "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-final-code",
+    "--out",
+    "E:\\vivado\\fusion150-demo-ui-runs-20261102\\898c63d174c14515924ad6ac8dfb5ed3\\preflight"
+  ],
+  "cwd": "C:\\Users\\Yylz\\Desktop\\学习\\FPGA\\最终提交文件\\fusion150-demo-ui",
+  "started": "2026-11-02T21:32:00+08:00",
+  "exit_code": 0,
+  "pid": 49884,
+  "finished": "2026-11-02T21:32:02+08:00",
+  "wall_seconds": 1.3851158618927002
+}

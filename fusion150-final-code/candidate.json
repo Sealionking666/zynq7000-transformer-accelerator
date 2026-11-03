@@ -1,0 +1,28 @@
+{
+  "schema": "fusion150-final-code/1",
+  "release": "fusion150-final",
+  "model_commit": "4869aaa2496f3e3318ae9ebfb4eb200d065f5a09",
+  "actual_clock_mhz": 150,
+  "timer_hz": 333333343,
+  "sources": {
+    "kernel": {
+      "commit": "f4caf9b2597e07cb827b8b864cf9d42a16261cdf"
+    },
+    "soc": {
+      "commit": "b1b8861b9718bf611935df91ad221ca96aa3942f"
+    },
+    "firmware": {
+      "commit": "5962f58f932aa88957e5d691d494897ed44d4e8a"
+    }
+  },
+  "deployed_bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "original_XSA_sha256": "d8f8b94950410a751f485723ad45bce91113b4287d8b0884f3053c301b597ecf",
+  "deployment_scope": "JTAG, preset Q16 inputs; original measured bit and purpose-specific ELF",
+  "official_test_physical_board": {
+    "samples": 2947,
+    "logits": 17682,
+    "correct": 2472,
+    "checksum": "fe0d23fe"
+  },
+  "new_rebuild_bit_requires_its_own_board_validation": true
+}

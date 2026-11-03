@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "独立计时与覆盖核验（非逐logit）",
+  "reason": "66条顺序正确；排除6预热，60次正式计时；原固件负责PL/ARM/冻结参考逐值比较",
+  "observation": {
+    "purpose": "benchmark",
+    "bytes": 7133,
+    "end_line": true,
+    "samples": 66,
+    "total": 66,
+    "measured": 60,
+    "correct": null,
+    "accuracy": null,
+    "logits": null,
+    "classification": [],
+    "timing": {
+      "timer_hz": 333333343,
+      "measured": 60,
+      "pspl_median_us": 40.667998820628036,
+      "cpu_median_us": 2899.5494159130667,
+      "pspl_min_us": 40.004998839855034,
+      "pspl_max_us": 41.006998810797036,
+      "scope": "内存Q16至完整PS/PL logits；含生产复制、guard/poison/cache/control；排除6次预热、下载和UART"
+    },
+    "failure": null
+  },
+  "numerical": "固件报告数值通过；独立计时核验通过",
+  "limitation": "基准UART不含逐项logits、预测类别或标签"
+}

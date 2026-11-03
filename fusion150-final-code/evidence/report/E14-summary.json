@@ -1,0 +1,64 @@
+{
+  "id": "E14",
+  "title": "单次演示性能",
+  "claims": {
+    "schema": "fusion150-portable-board-capture/1",
+    "status": "passed",
+    "started": 1793193449.3016567,
+    "purpose": "benchmark",
+    "kind": "benchmark",
+    "build_token": "0941f5d661774b83a9b61378f1ab62f7",
+    "timer_hz": 333333343,
+    "current_authorization_sha256": "253abdf2f08c18dbd717502b2461595c82e30dc3f016f4647af062c25c91216b",
+    "human_confirmation_sha256": "56a75fb405298fc5b4321ca8d7d7ef617adb1ee4461608a1e6eb1a9b7bb29436",
+    "historical_recovery": {
+      "original_session": "v41-20261028-five-hour",
+      "recovery_sha256": "96060d565bbf761df747f53a638882095aa40f6a8988f8de5d55a98e99e6dca7",
+      "prior_latches_preserved": true,
+      "covered_run_ids": [
+        "board-portable150-stress-01"
+      ],
+      "scope": "Historical recovery evidence only; not current board permission"
+    },
+    "warning_disposition": "owner_confirmed_retain_warning",
+    "warning_confirmation_sha256": "5ba44d10933271b0ea799dee933361cddf1498fde8a4e865c64efc495265aa6f",
+    "formal_acceptance": false,
+    "verified_best": false,
+    "download_sha256": {
+      "hardware.bit": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+      "application.elf": "45a5413428740fedd58a495ec7075f6fd2865f986dcd5c53670a1c97c9d111cc",
+      "ps7_init.tcl": "467e397584c4e0e907884f08725167ddc6f4d12e4460c9474dd85e5f5fa06020",
+      "download.tcl": "3a19f4416c9636e820b7318afe429cbe9951758b28ec72f6ed50c9f1dc372cc1"
+    },
+    "xsct_sha256": "216ea7d2809aba22cfab3a2f028bb04424e681ea7591a81576baf261b190b7ef",
+    "metrics": {
+      "profile": "fused-net-v1",
+      "scope": "UART text consistency only",
+      "timer_hz": 333333343,
+      "measured_inferences": 60,
+      "warmup_inferences": 6,
+      "calls_per_inference": 1,
+      "pspl_median_ms": 0.04063949882145453,
+      "cpu_median_ms": 2.927188415111536,
+      "pspl_min_ms": 0.03971099884838103,
+      "pspl_max_ms": 0.04098299881149303
+    },
+    "exit_code": 0,
+    "uart_sha256": "23d195d6bda7a6281acff05d833799f4015d4ca4da04ec6027086b71ef83667b",
+    "download_log_sha256": "a80427853cbef3b31cbd0251113b019617280467e8f1fe8dcc57b54d8af4e65f",
+    "finished": 1793193456.9022646
+  },
+  "scope": "单次演示约40.6395μs，不能替换原配对中位40.6710μs或计算新的配对提升。",
+  "source_hashes": [
+    {
+      "sha256": "68c2e15b5fda2efc5806b637d198bac359f5761f6b70d1dc36e7c74708cc04b8",
+      "bytes": 17475,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/board/board-demo-benchmark01/result.json"
+    },
+    {
+      "sha256": "23d195d6bda7a6281acff05d833799f4015d4ca4da04ec6027086b71ef83667b",
+      "bytes": 7133,
+      "project_relative_source": "交付/fusion150-rc1_20261028/acceptance/board/board-demo-benchmark01/uart.bin"
+    }
+  ]
+}

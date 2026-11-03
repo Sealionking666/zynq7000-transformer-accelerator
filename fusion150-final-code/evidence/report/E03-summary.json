@@ -1,0 +1,182 @@
+{
+  "id": "E03",
+  "title": "官方独立test质量",
+  "claims": {
+    "status": "completed_final_frozen_model_test",
+    "split": "official_test",
+    "samples": 2947,
+    "correct": 2472,
+    "accuracy": 0.8388191381065491,
+    "macro_f1": 0.8372657272274614,
+    "class_distribution": [
+      496,
+      471,
+      420,
+      491,
+      532,
+      537
+    ],
+    "confusion_matrix_rows_true_columns_predicted": [
+      [
+        429,
+        9,
+        49,
+        8,
+        1,
+        0
+      ],
+      [
+        65,
+        359,
+        47,
+        0,
+        0,
+        0
+      ],
+      [
+        42,
+        15,
+        363,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        383,
+        102,
+        0
+      ],
+      [
+        4,
+        1,
+        0,
+        90,
+        437,
+        0
+      ],
+      [
+        0,
+        27,
+        9,
+        0,
+        0,
+        501
+      ]
+    ],
+    "classes": [
+      {
+        "id_1based": 1,
+        "label": "WALKING",
+        "precision": 0.7871559633027523,
+        "recall": 0.8649193548387096,
+        "f1": 0.8242074927953889,
+        "support": 496
+      },
+      {
+        "id_1based": 2,
+        "label": "WALKING_UPSTAIRS",
+        "precision": 0.8713592233009708,
+        "recall": 0.7622080679405521,
+        "f1": 0.8131370328425821,
+        "support": 471
+      },
+      {
+        "id_1based": 3,
+        "label": "WALKING_DOWNSTAIRS",
+        "precision": 0.7756410256410257,
+        "recall": 0.8642857142857143,
+        "f1": 0.8175675675675677,
+        "support": 420
+      },
+      {
+        "id_1based": 4,
+        "label": "SITTING",
+        "precision": 0.7962577962577962,
+        "recall": 0.780040733197556,
+        "f1": 0.7880658436213991,
+        "support": 491
+      },
+      {
+        "id_1based": 5,
+        "label": "STANDING",
+        "precision": 0.8092592592592592,
+        "recall": 0.8214285714285714,
+        "f1": 0.8152985074626866,
+        "support": 532
+      },
+      {
+        "id_1based": 6,
+        "label": "LAYING",
+        "precision": 1.0,
+        "recall": 0.9329608938547486,
+        "f1": 0.9653179190751445,
+        "support": 537
+      }
+    ],
+    "input_q16_sha256": "c79c2be39c220e021cbc885f8ca72b6f916eed31a439dc2eef9a88b57d49bd67",
+    "subjects": [
+      2,
+      4,
+      9,
+      10,
+      12,
+      13,
+      18,
+      20,
+      24
+    ],
+    "frozen_train_validation_subject_overlap": [],
+    "numerical_equivalence": {
+      "numpy_C_HLS_host_exact": true,
+      "samples": 2947,
+      "logits": 17682,
+      "hls_source_sha256": "da73dc4416a55e3b49ecaa0c56655738f4eb15db19732e7c8fbf3e7000f5791c"
+    },
+    "frozen_model_files_unchanged": true,
+    "scope": "Final model quality plus NumPy/C/HLS-host equivalence. No official-test target execution, RTL or board timing.",
+    "competition_threshold": "not_provided_no_threshold_invented",
+    "selection_or_parameter_updates": false
+  },
+  "scope": "2947官方test为NumPy/C/HLS宿主等价，不含该test实体板或RTL执行；不再用该test调参。",
+  "source_hashes": [
+    {
+      "sha256": "13e219ef69f3d1ee018c109f54ea1e03460bd5b9e2d26e98604a41485b11189d",
+      "bytes": 5345,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/evaluation.json"
+    },
+    {
+      "sha256": "83fbbaa861e0158df48c95051dabd320a76c3ca3caf668e94a079cb09d835987",
+      "bytes": 233070,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/predictions.csv"
+    },
+    {
+      "sha256": "58ea62c480083a74ad11f3b6005d9a15b6c7dca72bb2c0e3b67ec049ac9eb198",
+      "bytes": 2792,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test-report.md"
+    },
+    {
+      "sha256": "102d394ec3cf876d758a7bf188a495d4976bfed689578caefcd930f7750ef9f3",
+      "bytes": 141584,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/numpy-logits-q16.npy"
+    },
+    {
+      "sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+      "bytes": 70728,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/c-logits-q16.bin"
+    },
+    {
+      "sha256": "6733bf4676774a8ddff7949ffab2fbe6ab469ce3e8a81abe54faa24e7bd00a0b",
+      "bytes": 70728,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/hls-logits-q16.bin"
+    },
+    {
+      "sha256": "c3ea2c76cdd5ba1511c0ae1ff6296c80bb58d3ae90c1de061b6bff4fba0c3c5c",
+      "bytes": 52,
+      "project_relative_source": "交付/fusion150-rc1_20261028/quality/official-test/official-host-equivalence.log"
+    }
+  ],
+  "reading_note": "E03是较早的宿主终评；当前已有全量实体板覆盖，采用E15。"
+}

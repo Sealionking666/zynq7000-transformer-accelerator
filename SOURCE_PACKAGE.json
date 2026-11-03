@@ -1,0 +1,13 @@
+{
+  "schema": "fusion150-github-wrapper/1",
+  "prepared_date": "2026-11-03",
+  "engineering_package": "fusion150-final-code",
+  "engineering_files": 948,
+  "manifest_members": 946,
+  "engineering_manifest_sha256": "512461cd9b7d611bf00caadccc8157b9022b72e5b5c8e12687cf41b9446b9d91",
+  "matching_competition_rar_sha256": "03aef7908c09463466bd6b9b6924139018dd18f6a156cd13e08f2f1fb9fa8614",
+  "deployed_bit_sha256": "c5e1a3bb1d4cae7698bf39458b76aa71fa918e79f4252b3c880d478ae617bde2",
+  "engineering_bytes_unchanged": true,
+  "github_metadata_outside_engineering_manifest": true,
+  "board_tests_added_by_packaging": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "E11",
+  "title": "封包和同机迁移",
+  "claims": {
+    "schema": "fusion150-final-local-submission-receipt/1",
+    "status": "local_delivery_complete",
+    "completed_at_utc": "2026-10-28T13:53:47.526645+00:00",
+    "package": "原归档路径由队长留存",
+    "candidate_sha256": "52e4b6dcd94707c4ab914d760297d320396a625c149870d3032ce5e11fa7ec50",
+    "manifest_sha256": "8ae4240e31e2780d6c2b35323835b224c30eb86d35fea8a6915bed31c63c04be",
+    "sealed_files": 3889,
+    "sealed_bytes": 1327686134,
+    "submission_zip": "原归档路径由队长留存",
+    "submission_zip_sha256": "ad8f081ef1214fbf8303144c341cefd7a60978696d3162275574bdb4cc69a659",
+    "submission_zip_bytes": 1028154378,
+    "fresh_relocation_root": "原归档路径由队长留存",
+    "checks": {
+      "final-original-seal-review01": {
+        "status": "complete_package_content_verified",
+        "review_sha256": "29d445c677aaf1996404f6a6ac9a9f63a208da158b3ef68dd95b177af8c06cd3"
+      },
+      "final-relocated-seal-review02": {
+        "status": "complete_package_content_verified",
+        "review_sha256": "7f8191ae7473c3d6241c030d755541ee53e987c0522785810bcad89f5fc0c28a"
+      },
+      "final-relocated-cold-review01": {
+        "status": "three_power_events_and_JTAG_validations_verified",
+        "review_sha256": "a6bd25e58b14ae87c355f591f26538833a9748343598ba3af2e7f96e76ddc9b4"
+      },
+      "final-relocated-stress-review01": {
+        "status": "complete_source_bound_diagnostic_evidence",
+        "review_sha256": "1829b924d3621199fba4d7b181db20e857dbd13c076b0740092dfb9ed0038233"
+      },
+      "final-relocated-build-review01": {
+        "status": "offline_rebuild_evidence_verified",
+        "review_sha256": "eedf406d059003ac01f87097c3271c9d4772170af4c95e3d91c69d92063dbfcf"
+      }
+    },
+    "historical_absolute_paths_consulted_for_relocated_reviews": 0,
+    "new_EDA_during_relocation": false,
+    "new_board_action_during_relocation": false,
+    "external_upload_performed": false,
+    "portal_receipt": null,
+    "scope": "Complete local package, ZIP, SHA256 and content/source-bound evidence replay after actual ZIP extraction; same host, not teammate/second-machine execution."
+  },
+  "scope": "本地封包/同机新目录解压核验，不能替代赛事回执、队友本人演示、第二机或离机备份。",
+  "source_hashes": [
+    {
+      "sha256": "2137d7531afaa391b8163cebb37774fb6d50535d5bc94dcd96ab996e2da5dd83",
+      "bytes": 2228,
+      "project_relative_source": "交付/fusion150-rc1_20261028-submission-receipt.json"
+    },
+    {
+      "sha256": "8ae4240e31e2780d6c2b35323835b224c30eb86d35fea8a6915bed31c63c04be",
+      "bytes": 899639,
+      "project_relative_source": "交付/fusion150-rc1_20261028/release-manifest.json"
+    }
+  ],
+  "reading_note": "历史复建、封存或研究记录，不替代当前原bit性能；不放海报主数据区。"
+}
